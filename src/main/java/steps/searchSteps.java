@@ -1,14 +1,12 @@
 package steps;
 
+import io.cucumber.java.en.*;
 import com.github.tomakehurst.wiremock.WireMockServer;
 import com.github.tomakehurst.wiremock.client.WireMock;
-import io.cucumber.java.en.*;
-
-import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static io.restassured.RestAssured.*;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-
+import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -25,29 +23,29 @@ public class searchSteps {
         baseURI="https://api.github.com/search";
     }
 
-//    @Given("the mock server is set up to return validation error for an invalid query")
-//    public void the_mock_server_is_set_up_to_return_validation_error_for_an_invalid_query() {
-//        wireMockServer =new WireMockServer();
-//        wireMockServer.start();
-//
-//        WireMock.configureFor("localhost",wireMockServer.port());
-//        stubFor(get(urlEqualTo("/search/repositories?q=invalid_query"))
-//                .willReturn(aResponse().withStatus(422).withHeader("Content-Type","application/json")
-//                        .withBody("{\"message\":\"Validation Failed\"}")));
-//    }
-//
-//
-//    @Given("The mock server is setup to set the rate limit value as {int}")
-//    public void the_mock_server_is_setup_to_set_the_rate_limit_value_as(int rateLimit) {
-//        wireMockServer =new WireMockServer();
-//        wireMockServer.start();
-//
-//        WireMock.configureFor("localhost",wireMockServer.port());
-//        stubFor(get(urlEqualTo("/search/repositories?q=octocat"))
-//                .willReturn(aResponse().withHeader("X-RateLimit-Remaining","0")
-//                        .withStatus(429)
-//                        .withBody("{\"message\":\"Rate Limit is exceeded\"}")));
-//    }
+    @Given("the mock server is set up to return validation error for an invalid query")
+    public void the_mock_server_is_set_up_to_return_validation_error_for_an_invalid_query() {
+        wireMockServer =new WireMockServer();
+        wireMockServer.start();
+
+        WireMock.configureFor("localhost",wireMockServer.port());
+        stubFor(get(urlEqualTo("/search/repositories?q=invalid_query"))
+                .willReturn(aResponse().withStatus(422).withHeader("Content-Type","application/json")
+                        .withBody("{\"message\":\"Validation Failed\"}")));
+    }
+
+
+    @Given("The mock server is setup to set the rate limit value as {int}")
+    public void the_mock_server_is_setup_to_set_the_rate_limit_value_as(int rateLimit) {
+        wireMockServer =new WireMockServer();
+        wireMockServer.start();
+
+        WireMock.configureFor("localhost",wireMockServer.port());
+        stubFor(get(urlEqualTo("/search/repositories?q=octocat"))
+                .willReturn(aResponse().withHeader("X-RateLimit-Remaining","0")
+                        .withStatus(429)
+                        .withBody("{\"message\":\"Rate Limit is exceeded\"}")));
+    }
 
     @When("The user hits the Search Repository API with exceeded rate limit value")
     public void the_user_hits_the_search_repository_api_with_exceeded_rate_limit_value() {
@@ -169,23 +167,23 @@ public class searchSteps {
     }
     @Then("The user validates if the response body size is within the acceptable limit {int}")
     public void the_user_validates_if_the_response_body_size_is_within_the_acceptable_limit(int limit) {
-            assertTrue(response.getBody().asByteArray().length < limit);
+        assertTrue(response.getBody().asByteArray().length < limit);
     }
 
-//    @Then("The Search Repository API returns validation failed error message with status {int}")
-//    public void the_search_repository_api_returns_validation_failed_error_message_with_status(int statusCode) {
-//        assertEquals(this.response.getStatusCode(),statusCode);
-//        assertTrue(this.response.getBody().asString().contains("Validation Failed"));
-//        wireMockServer.stop();
-//    }
-//
-//    @Then("The Search Repository API returns status code {int}")
-//    public void the_search_repository_api_returns_status_code(int statusCode) {
-//        int rateLimitRemaining = Integer.parseInt(this.response.getHeader("X-RateLimit-Remaining"));
-//        assertEquals(rateLimitRemaining,0);
-//        assertEquals(this.response.getStatusCode(),statusCode);
-//        assertTrue(this.response.getBody().asString().contains("Rate Limit is exceeded"));
-//        wireMockServer.stop();
-//    }
+    @Then("The Search Repository API returns validation failed error message with status {int}")
+    public void the_search_repository_api_returns_validation_failed_error_message_with_status(int statusCode) {
+        assertEquals(this.response.getStatusCode(),statusCode);
+        assertTrue(this.response.getBody().asString().contains("Validation Failed"));
+        wireMockServer.stop();
+    }
+
+    @Then("The Search Repository API returns status code {int}")
+    public void the_search_repository_api_returns_status_code(int statusCode) {
+        int rateLimitRemaining = Integer.parseInt(this.response.getHeader("X-RateLimit-Remaining"));
+        assertEquals(rateLimitRemaining,0);
+        assertEquals(this.response.getStatusCode(),statusCode);
+        assertTrue(this.response.getBody().asString().contains("Rate Limit is exceeded"));
+        wireMockServer.stop();
+    }
 
 }
