@@ -2,9 +2,9 @@ name : Trigger Test
 
 on:
   push:
-    braches: [main]
+    braches: [master]
   pull_request:
-    branches: [main]
+    branches: [master]
 
 jobs:
   build:
@@ -24,7 +24,7 @@ jobs:
           key: ${{runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: {{ runner.os }}-m2
 
-        run: mvn -B package --file pom.xml
+      - run: mvn -B package --file pom.xml
 
       - name: Run tests
         run: mvn test
