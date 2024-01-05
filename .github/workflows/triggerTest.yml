@@ -1,11 +1,10 @@
-name : Trigger Test
+name : Trigger Test execution
 
 on:
   push:
     braches: [master]
   pull_request:
     branches: [master]
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,7 +23,7 @@ jobs:
           key: ${{runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: {{ runner.os }}-m2
 
-      - run: mvn -B package --file pom.xml
-
-      - name: Run tests
-        run: mvn test
+      - name: Setup JDK 8
+        run: |
+          mvn -B package --file pom.xml
+          mvn test
