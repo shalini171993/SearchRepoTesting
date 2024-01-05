@@ -1,0 +1,1760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.855" tests="13" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Shalini\IdeaProjects\SearchRepo\target\test-classes;C:\Users\Shalini\IdeaProjects\SearchRepo\target\classes;C:\Users\Shalini\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Shalini\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Shalini\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Shalini\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Shalini\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Shalini\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Shalini\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Shalini\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Shalini\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Shalini\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Shalini\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Shalini\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Shalini\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Shalini\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Shalini\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Shalini\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Shalini\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Shalini\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\Shalini\.m2\repository\io\cucumber\cucumber-core\6.10.4\cucumber-core-6.10.4.jar;C:\Users\Shalini\.m2\repository\io\cucumber\cucumber-gherkin\6.10.4\cucumber-gherkin-6.10.4.jar;C:\Users\Shalini\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.4\cucumber-gherkin-messages-6.10.4.jar;C:\Users\Shalini\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Shalini\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Shalini\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Shalini\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Shalini\.m2\repository\io\cucumber\cucumber-plugin\6.10.4\cucumber-plugin-6.10.4.jar;C:\Users\Shalini\.m2\repository\io\cucumber\docstring\6.10.4\docstring-6.10.4.jar;C:\Users\Shalini\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Shalini\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Shalini\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Shalini\.m2\repository\io\cucumber\cucumber-testng\6.10.4\cucumber-testng-6.10.4.jar;C:\Users\Shalini\.m2\repository\net\masterthought\maven-cucumber-reporting\5.6.1\maven-cucumber-reporting-5.6.1.jar;C:\Users\Shalini\.m2\repository\org\apache\maven\maven-plugin-api\3.8.3\maven-plugin-api-3.8.3.jar;C:\Users\Shalini\.m2\repository\org\apache\maven\maven-model\3.8.3\maven-model-3.8.3.jar;C:\Users\Shalini\.m2\repository\org\apache\maven\maven-artifact\3.8.3\maven-artifact-3.8.3.jar;C:\Users\Shalini\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.5\org.eclipse.sisu.plexus-0.3.5.jar;C:\Users\Shalini\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\Shalini\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.5\org.eclipse.sisu.inject-0.3.5.jar;C:\Users\Shalini\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Shalini\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\Shalini\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\Shalini\.m2\repository\net\masterthought\cucumber-reporting\5.6.1\cucumber-reporting-5.6.1.jar;C:\Users\Shalini\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\Shalini\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\Shalini\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Shalini\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\Shalini\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Shalini\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Shalini\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\Shalini\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Shalini\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Shalini\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Shalini\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Shalini\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Shalini\.m2\repository\com\github\tomakehurst\Wiremock-jre8\2.27.2\Wiremock-jre8-2.27.2.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-server\9.4.30.v20200611\jetty-server-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-http\9.4.30.v20200611\jetty-http-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-io\9.4.30.v20200611\jetty-io-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.30.v20200611\jetty-servlet-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-security\9.4.30.v20200611\jetty-security-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-servlets\9.4.30.v20200611\jetty-servlets-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-continuation\9.4.30.v20200611\jetty-continuation-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-util\9.4.30.v20200611\jetty-util-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.30.v20200611\jetty-webapp-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.30.v20200611\jetty-xml-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-proxy\9.4.30.v20200611\jetty-proxy-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-client\9.4.30.v20200611\jetty-client-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Shalini\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Shalini\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Shalini\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Shalini\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Shalini\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Shalini\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Shalini\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\Shalini\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\Shalini\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\Shalini\.m2\repository\org\xmlunit\xmlunit-core\2.7.0\xmlunit-core-2.7.0.jar;C:\Users\Shalini\.m2\repository\org\xmlunit\xmlunit-legacy\2.7.0\xmlunit-legacy-2.7.0.jar;C:\Users\Shalini\.m2\repository\org\xmlunit\xmlunit-placeholders\2.7.0\xmlunit-placeholders-2.7.0.jar;C:\Users\Shalini\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\Shalini\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Shalini\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\Shalini\.m2\repository\org\ow2\asm\asm\7.0\asm-7.0.jar;C:\Users\Shalini\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;C:\Users\Shalini\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\Shalini\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\Shalini\.m2\repository\com\github\jknack\handlebars\4.2.0\handlebars-4.2.0.jar;C:\Users\Shalini\.m2\repository\com\github\jknack\handlebars-helpers\4.2.0\handlebars-helpers-4.2.0.jar;C:\Users\Shalini\.m2\repository\com\flipkart\zjsonpatch\zjsonpatch\0.4.4\zjsonpatch-0.4.4.jar;C:\Users\Shalini\.m2\repository\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\http2\http2-server\9.4.30.v20200611\http2-server-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\http2\http2-common\9.4.30.v20200611\http2-common-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\http2\http2-hpack\9.4.30.v20200611\http2-hpack-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-alpn-server\9.4.30.v20200611\jetty-alpn-server-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-alpn-conscrypt-server\9.4.30.v20200611\jetty-alpn-conscrypt-server-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-alpn-conscrypt-client\9.4.30.v20200611\jetty-alpn-conscrypt-client-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-alpn-client\9.4.30.v20200611\jetty-alpn-client-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\conscrypt\conscrypt-openjdk-uber\2.2.1\conscrypt-openjdk-uber-2.2.1.jar;C:\Users\Shalini\.m2\repository\net\javacrumbs\json-unit\json-unit-core\2.12.0\json-unit-core-2.12.0.jar;C:\Users\Shalini\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Shalini\.m2\repository\org\hamcrest\hamcrest-core\2.1\hamcrest-core-2.1.jar;C:\Users\Shalini\.m2\repository\com\github\tomakehurst\wiremock-jre8\2.27.2\wiremock-jre8-2.27.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Shalini\AppData\Local\Temp\surefire3348667671635424230\surefirebooter7274164541590621797.jar C:\Users\Shalini\AppData\Local\Temp\surefire3348667671635424230 2024-01-05T03-37-02_035-jvmRun1 surefire44710445653010731tmp surefire_06458775406318355955tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Shalini\IdeaProjects\SearchRepo\target\test-classes;C:\Users\Shalini\IdeaProjects\SearchRepo\target\classes;C:\Users\Shalini\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Shalini\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Shalini\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Shalini\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Shalini\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Shalini\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Shalini\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Shalini\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Shalini\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Shalini\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Shalini\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Shalini\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Shalini\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Shalini\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Shalini\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Shalini\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Shalini\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Shalini\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\Shalini\.m2\repository\io\cucumber\cucumber-core\6.10.4\cucumber-core-6.10.4.jar;C:\Users\Shalini\.m2\repository\io\cucumber\cucumber-gherkin\6.10.4\cucumber-gherkin-6.10.4.jar;C:\Users\Shalini\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.4\cucumber-gherkin-messages-6.10.4.jar;C:\Users\Shalini\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Shalini\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Shalini\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Shalini\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Shalini\.m2\repository\io\cucumber\cucumber-plugin\6.10.4\cucumber-plugin-6.10.4.jar;C:\Users\Shalini\.m2\repository\io\cucumber\docstring\6.10.4\docstring-6.10.4.jar;C:\Users\Shalini\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Shalini\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Shalini\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Shalini\.m2\repository\io\cucumber\cucumber-testng\6.10.4\cucumber-testng-6.10.4.jar;C:\Users\Shalini\.m2\repository\net\masterthought\maven-cucumber-reporting\5.6.1\maven-cucumber-reporting-5.6.1.jar;C:\Users\Shalini\.m2\repository\org\apache\maven\maven-plugin-api\3.8.3\maven-plugin-api-3.8.3.jar;C:\Users\Shalini\.m2\repository\org\apache\maven\maven-model\3.8.3\maven-model-3.8.3.jar;C:\Users\Shalini\.m2\repository\org\apache\maven\maven-artifact\3.8.3\maven-artifact-3.8.3.jar;C:\Users\Shalini\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.5\org.eclipse.sisu.plexus-0.3.5.jar;C:\Users\Shalini\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\Shalini\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.5\org.eclipse.sisu.inject-0.3.5.jar;C:\Users\Shalini\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Shalini\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\Shalini\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\Shalini\.m2\repository\net\masterthought\cucumber-reporting\5.6.1\cucumber-reporting-5.6.1.jar;C:\Users\Shalini\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\Shalini\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\Shalini\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Shalini\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\Shalini\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Shalini\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Shalini\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\Shalini\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Shalini\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Shalini\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Shalini\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Shalini\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Shalini\.m2\repository\com\github\tomakehurst\Wiremock-jre8\2.27.2\Wiremock-jre8-2.27.2.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-server\9.4.30.v20200611\jetty-server-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-http\9.4.30.v20200611\jetty-http-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-io\9.4.30.v20200611\jetty-io-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.30.v20200611\jetty-servlet-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-security\9.4.30.v20200611\jetty-security-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-servlets\9.4.30.v20200611\jetty-servlets-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-continuation\9.4.30.v20200611\jetty-continuation-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-util\9.4.30.v20200611\jetty-util-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.30.v20200611\jetty-webapp-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.30.v20200611\jetty-xml-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-proxy\9.4.30.v20200611\jetty-proxy-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-client\9.4.30.v20200611\jetty-client-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Shalini\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Shalini\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Shalini\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Shalini\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Shalini\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Shalini\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Shalini\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\Shalini\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\Shalini\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\Shalini\.m2\repository\org\xmlunit\xmlunit-core\2.7.0\xmlunit-core-2.7.0.jar;C:\Users\Shalini\.m2\repository\org\xmlunit\xmlunit-legacy\2.7.0\xmlunit-legacy-2.7.0.jar;C:\Users\Shalini\.m2\repository\org\xmlunit\xmlunit-placeholders\2.7.0\xmlunit-placeholders-2.7.0.jar;C:\Users\Shalini\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\Shalini\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Shalini\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\Shalini\.m2\repository\org\ow2\asm\asm\7.0\asm-7.0.jar;C:\Users\Shalini\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;C:\Users\Shalini\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\Shalini\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\Shalini\.m2\repository\com\github\jknack\handlebars\4.2.0\handlebars-4.2.0.jar;C:\Users\Shalini\.m2\repository\com\github\jknack\handlebars-helpers\4.2.0\handlebars-helpers-4.2.0.jar;C:\Users\Shalini\.m2\repository\com\flipkart\zjsonpatch\zjsonpatch\0.4.4\zjsonpatch-0.4.4.jar;C:\Users\Shalini\.m2\repository\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\http2\http2-server\9.4.30.v20200611\http2-server-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\http2\http2-common\9.4.30.v20200611\http2-common-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\http2\http2-hpack\9.4.30.v20200611\http2-hpack-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-alpn-server\9.4.30.v20200611\jetty-alpn-server-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-alpn-conscrypt-server\9.4.30.v20200611\jetty-alpn-conscrypt-server-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-alpn-conscrypt-client\9.4.30.v20200611\jetty-alpn-conscrypt-client-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\eclipse\jetty\jetty-alpn-client\9.4.30.v20200611\jetty-alpn-client-9.4.30.v20200611.jar;C:\Users\Shalini\.m2\repository\org\conscrypt\conscrypt-openjdk-uber\2.2.1\conscrypt-openjdk-uber-2.2.1.jar;C:\Users\Shalini\.m2\repository\net\javacrumbs\json-unit\json-unit-core\2.12.0\json-unit-core-2.12.0.jar;C:\Users\Shalini\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Shalini\.m2\repository\org\hamcrest\hamcrest-core\2.1\hamcrest-core-2.1.jar;C:\Users\Shalini\.m2\repository\com\github\tomakehurst\wiremock-jre8\2.27.2\wiremock-jre8-2.27.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Shalini"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
+    <property name="basedir" value="C:\Users\Shalini\IdeaProjects\SearchRepo"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Shalini\AppData\Local\Temp\surefire3348667671635424230\surefirebooter7274164541590621797.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="Shalini"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="org.eclipse.jetty.server.HttpChannelState.DEFAULT_TIMEOUT" value="300000"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom" value="com.sun.org.apache.xpath.internal.jaxp.XPathFactoryImpl"/>
+    <property name="localRepository" value="C:\Users\Shalini\.m2\repository"/>
+    <property name="jetty.git.hash" value="271836e4c1f4612f12b7bb13ef5a92a927634b0d"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shalini\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="user.dir" value="C:\Users\Shalini\IdeaProjects\SearchRepo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Maven\apache-maven-3.6.3\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_261/bin;C:\Program Files\Java\jdk1.8.0_261/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Maven\apache-maven-3.6.3\apache-maven-3.6.3\bin;C:\Users\Shalini\AppData\Local\Android\Sdk\tools\bin;C:\Users\Shalini\AppData\Local\Android\Sdk\tools;C:\Users\Shalini\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Git\cmd;C:\Users\Shalini\AppData\Local\Programs\Python;C:\Users\Shalini\AppData\Local\Programs\Python\Python39\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\allure-2.16.1\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Shalini\AppData\Local\Microsoft\WindowsApps;;C:\Users\Shalini\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="javax.xml.transform.TransformerFactory" value="com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;](2)" classname="runner.TestRunner" time="3.742">
+    <system-out><![CDATA[
+Scenario Outline: Search repo with different query parameters                                                                     &amp#27;[90m# src/test/resources/features/search.feature:11&amp#27;[0m
+
+Scenario Outline: Search with queries and sort                                                                        &amp#27;[90m# src/test/resources/features/search.feature:55&amp#27;[0m
+
+Scenario Outline: Search repo with different query parameters                                                               &amp#27;[90m# src/test/resources/features/search.feature:34&amp#27;[0m
+
+Scenario Outline: Search with queries and sort                                                                       &amp#27;[90m# src/test/resources/features/search.feature:54&amp#27;[0m
+
+Scenario Outline: Search repo with different query parameters                                                                 &amp#27;[90m# src/test/resources/features/search.feature:14&amp#27;[0m
+
+Scenario Outline: Search repo with different query parameters                                                                     &amp#27;[90m# src/test/resources/features/search.feature:45&amp#27;[0m
+
+Scenario Outline: Search with queries and sort                                                                        &amp#27;[90m# src/test/resources/features/search.feature:56&amp#27;[0m
+
+Scenario Outline: Search repo with different query parameters                                                             &amp#27;[90m# src/test/resources/features/search.feature:13&amp#27;[0m
+
+Scenario Outline: Search repo with different query parameters                                            &amp#27;[90m# src/test/resources/features/search.feature:24&amp#27;[0m
+
+Scenario Outline: Search repo with different query parameters                                                                       &amp#27;[90m# src/test/resources/features/search.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user sets the baseURL for the Search API&amp#27;[0m                                                     &amp#27;[90m# steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user sets the baseURL for the Search API&amp#27;[0m                                                                  &amp#27;[90m# steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user sets the baseURL for the Search API&amp#27;[0m                                                                                &amp#27;[90m# steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user sets the baseURL for the Search API&amp#27;[0m                                                                              &amp#27;[90m# steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user sets the baseURL for the Search API&amp#27;[0m                                                                 &amp#27;[90m# steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user sets the baseURL for the Search API&amp#27;[0m                                                                        &amp#27;[90m# steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user sets the baseURL for the Search API&amp#27;[0m                                                                      &amp#27;[90m# steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user sets the baseURL for the Search API&amp#27;[0m                                                                  &amp#27;[90m# steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user sets the baseURL for the Search API&amp#27;[0m                                                                          &amp#27;[90m# steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user sets the baseURL for the Search API&amp#27;[0m                                                                              &amp#27;[90m# steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user searches for Github repository with keyword &amp#27;[0m&amp#27;[32m&amp#27;[1m"language:assembly stars:>10000"&amp#27;[0m                                &amp#27;[90m# steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user searches for Github repository with keyword &amp#27;[0m&amp#27;[32m&amp#27;[1m"language:assembly stars:1..5 created:>2024-01-01 pushed:>2024-01-01"&amp#27;[0m &amp#27;[90m# steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user searches for &amp#27;[0m&amp#27;[32m&amp#27;[1m"user:shalini171993"&amp#27;[0m&amp#27;[32m with sort key &amp#27;[0m&amp#27;[32m&amp#27;[1m"stars"&amp#27;[0m&amp#27;[32m in the order &amp#27;[0m&amp#27;[32m&amp#27;[1m"null"&amp#27;[0m                           &amp#27;[90m# steps.searchSteps.the_user_searches_for_with_sort_key_in_the_order(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user searches for &amp#27;[0m&amp#27;[32m&amp#27;[1m"user:shalini171993"&amp#27;[0m&amp#27;[32m with sort key &amp#27;[0m&amp#27;[32m&amp#27;[1m"stars"&amp#27;[0m&amp#27;[32m in the order &amp#27;[0m&amp#27;[32m&amp#27;[1m"desc"&amp#27;[0m                           &amp#27;[90m# steps.searchSteps.the_user_searches_for_with_sort_key_in_the_order(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user searches for Github repository with keyword &amp#27;[0m&amp#27;[32m&amp#27;[1m"user:shalini171993"&amp#27;[0m                                          &amp#27;[90m# steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user searches for &amp#27;[0m&amp#27;[32m&amp#27;[1m"user:shalini171993"&amp#27;[0m&amp#27;[32m with sort key &amp#27;[0m&amp#27;[32m&amp#27;[1m"stars"&amp#27;[0m&amp#27;[32m in the order &amp#27;[0m&amp#27;[32m&amp#27;[1m"asc"&amp#27;[0m                           &amp#27;[90m# steps.searchSteps.the_user_searches_for_with_sort_key_in_the_order(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+{
+    "total_count": 5,
+    "incomplete_results": false,
+    "items": [
+        {
+            "id": 18408635,
+            "node_id": "MDEwOlJlcG9zaXRvcnkxODQwODYzNQ==",
+            "name": "Apollo-11",
+            "full_name": "chrislgarry/Apollo-11",
+            "private": false,
+            "owner": {
+                "login": "chrislgarry",
+                "id": 2200898,
+                "node_id": "MDQ6VXNlcjIyMDA4OTg=",
+                "avatar_url": "https://avatars.githubusercontent.com/u/2200898?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/chrislgarry",
+                "html_url": "https://github.com/chrislgarry",
+                "followers_url": "https://api.github.com/users/chrislgarry/followers",
+                "following_url": "https://api.github.com/users/chrislgarry/following{/other_user}",
+                "gists_url": "https://api.github.com/users/chrislgarry/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/chrislgarry/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/chrislgarry/subscriptions",
+                "organizations_url": "https://api.github.com/users/chrislgarry/orgs",
+                "repos_url": "https://api.github.com/users/chrislgarry/repos",
+                "events_url": "https://api.github.com/users/chrislgarry/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/chrislgarry/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/chrislgarry/Apollo-11",
+            "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+            "fork": false,
+            "url": "https://api.github.com/repos/chrislgarry/Apollo-11",
+            "forks_url": "https://api.github.com/repos/chrislgarry/Apollo-11/forks",
+            "keys_url": "https://api.github.com/repos/chrislgarry/Apollo-11/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/chrislgarry/Apollo-11/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/chrislgarry/Apollo-11/teams",
+            "hooks_url": "https://api.github.com/repos/chrislgarry/Apollo-11/hooks",
+            "issue_events_url": "https://api.github.com/repos/chrislgarry/Apollo-11/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/chrislgarry/Apollo-11/events",
+            "assignees_url": "https://api.github.com/repos/chrislgarry/Apollo-11/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/chrislgarry/Apollo-11/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/chrislgarry/Apollo-11/tags",
+            "blobs_url": "https://api.github.com/repos/chrislgarry/Apollo-11/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/chrislgarry/Apollo-11/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/chrislgarry/Apollo-11/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/chrislgarry/Apollo-11/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/chrislgarry/Apollo-11/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/chrislgarry/Apollo-11/languages",
+            "stargazers_url": "https://api.github.com/repos/chrislgarry/Apollo-11/stargazers",
+            "contributors_url": "https://api.github.com/repos/chrislgarry/Apollo-11/contributors",
+            "subscribers_url": "https://api.github.com/repos/chrislgarry/Apollo-11/subscribers",
+            "subscription_url": "https://api.github.com/repos/chrislgarry/Apollo-11/subscription",
+            "commits_url": "https://api.github.com/repos/chrislgarry/Apollo-11/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/chrislgarry/Apollo-11/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/chrislgarry/Apollo-11/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/chrislgarry/Apollo-11/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/chrislgarry/Apollo-11/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/chrislgarry/Apollo-11/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/chrislgarry/Apollo-11/merges",
+            "archive_url": "https://api.github.com/repos/chrislgarry/Apollo-11/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/chrislgarry/Apollo-11/downloads",
+            "issues_url": "https://api.github.com/repos/chrislgarry/Apollo-11/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/chrislgarry/Apollo-11/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/chrislgarry/Apollo-11/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/chrislgarry/Apollo-11/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/chrislgarry/Apollo-11/labels{/name}",
+            "releases_url": "https://api.github.com/repos/chrislgarry/Apollo-11/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/chrislgarry/Apollo-11/deployments",
+            "created_at": "2014-04-03T15:45:02Z",
+            "updated_at": "2024-01-05T02:30:43Z",
+            "pushed_at": "2023-12-29T04:56:45Z",
+            "git_url": "git://github.com/chrislgarry/Apollo-11.git",
+            "ssh_url": "git@github.com:chrislgarry/Apollo-11.git",
+            "clone_url": "https://github.com/chrislgarry/Apollo-11.git",
+            "svn_url": "https://github.com/chrislgarry/Apollo-11",
+            "homepage": "",
+            "size": 3055,
+            "stargazers_count": 55907,
+            "watchers_count": 55907,
+            "language": "Assembly",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 6897,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 138,
+            "license": {
+                "key": "other",
+                "name": "Other",
+                "spdx_id": "NOASSERTION",
+                "url": null,
+                "node_id": "MDc6TGljZW5zZTA="
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "agc",
+                "apollo",
+                "hacktoberfest",
+                "nasa"
+            ],
+            "visibility": "public",
+            "forks": 6897,
+            "open_issues": 138,
+            "watchers": 55907,
+            "default_branch": "master",
+            "score": 1.0
+        },
+        {
+            "id": 138634298,
+            "node_id": "MDEwOlJlcG9zaXRvcnkxMzg2MzQyOTg=",
+            "name": "MS-DOS",
+            "full_name": "microsoft/MS-DOS",
+            "private": false,
+            "owner": {
+                "login": "microsoft",
+                "id": 6154722,
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjYxNTQ3MjI=",
+                "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/microsoft",
+                "html_url": "https://github.com/microsoft",
+                "followers_url": "https://api.github.com/users/microsoft/followers",
+                "following_url": "https://api.github.com/users/microsoft/following{/other_user}",
+                "gists_url": "https://api.github.com/users/microsoft/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/microsoft/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/microsoft/subscriptions",
+                "organizations_url": "https://api.github.com/users/microsoft/orgs",
+                "repos_url": "https://api.github.com/users/microsoft/repos",
+                "events_url": "https://api.github.com/users/microsoft/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/microsoft/received_events",
+                "type": "Organization",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/microsoft/MS-DOS",
+            "description": "The original sources of MS-DOS 1.25 and 2.0, for reference purposes",
+            "fork": false,
+            "url": "https://api.github.com/repos/microsoft/MS-DOS",
+            "forks_url": "https://api.github.com/repos/microsoft/MS-DOS/forks",
+            "keys_url": "https://api.github.com/repos/microsoft/MS-DOS/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/microsoft/MS-DOS/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/microsoft/MS-DOS/teams",
+            "hooks_url": "https://api.github.com/repos/microsoft/MS-DOS/hooks",
+            "issue_events_url": "https://api.github.com/repos/microsoft/MS-DOS/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/microsoft/MS-DOS/events",
+            "assignees_url": "https://api.github.com/repos/microsoft/MS-DOS/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/microsoft/MS-DOS/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/microsoft/MS-DOS/tags",
+            "blobs_url": "https://api.github.com/repos/microsoft/MS-DOS/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/microsoft/MS-DOS/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/microsoft/MS-DOS/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/microsoft/MS-DOS/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/microsoft/MS-DOS/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/microsoft/MS-DOS/languages",
+            "stargazers_url": "https://api.github.com/repos/microsoft/MS-DOS/stargazers",
+            "contributors_url": "https://api.github.com/repos/microsoft/MS-DOS/contributors",
+            "subscribers_url": "https://api.github.com/repos/microsoft/MS-DOS/subscribers",
+            "subscription_url": "https://api.github.com/repos/microsoft/MS-DOS/subscription",
+            "commits_url": "https://api.github.com/repos/microsoft/MS-DOS/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/microsoft/MS-DOS/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/microsoft/MS-DOS/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/microsoft/MS-DOS/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/microsoft/MS-DOS/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/microsoft/MS-DOS/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/microsoft/MS-DOS/merges",
+            "archive_url": "https://api.github.com/repos/microsoft/MS-DOS/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/microsoft/MS-DOS/downloads",
+            "issues_url": "https://api.github.com/repos/microsoft/MS-DOS/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/microsoft/MS-DOS/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/microsoft/MS-DOS/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/microsoft/MS-DOS/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/microsoft/MS-DOS/labels{/name}",
+            "releases_url": "https://api.github.com/repos/microsoft/MS-DOS/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/microsoft/MS-DOS/deployments",
+            "created_at": "2018-06-25T18:26:02Z",
+            "updated_at": "2024-01-04T17:28:35Z",
+            "pushed_at": "2019-10-10T18:18:24Z",
+            "git_url": "git://github.com/microsoft/MS-DOS.git",
+            "ssh_url": "git@github.com:microsoft/MS-DOS.git",
+            "clone_url": "https://github.com/microsoft/MS-DOS.git",
+            "svn_url": "https://github.com/microsoft/MS-DOS",
+            "homepage": null,
+            "size": 875,
+            "stargazers_count": 17600,
+            "watchers_count": 17600,
+            "language": "Assembly",
+            "has_issues": true,
+            "has_projects": false,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 2708,
+            "mirror_url": null,
+            "archived": true,
+            "disabled": false,
+            "open_issues_count": 245,
+            "license": {
+                "key": "other",
+                "name": "Other",
+                "spdx_id": "NOASSERTION",
+                "url": null,
+                "node_id": "MDc6TGljZW5zZTA="
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                
+            ],
+            "visibility": "public",
+            "forks": 2708,
+            "open_issues": 245,
+            "watchers": 17600,
+            "default_branch": "master",
+            "score": 1.0
+        },
+        {
+            "id": 302800491,
+            "node_id": "MDEwOlJlcG9zaXRvcnkzMDI4MDA0OTE=",
+            "name": "MalwareSourceCode",
+            "full_name": "vxunderground/MalwareSourceCode",
+            "private": false,
+            "owner": {
+                "login": "vxunderground",
+                "id": 57078196,
+                "node_id": "MDQ6VXNlcjU3MDc4MTk2",
+                "avatar_url": "https://avatars.githubusercontent.com/u/57078196?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/vxunderground",
+                "html_url": "https://github.com/vxunderground",
+                "followers_url": "https://api.github.com/users/vxunderground/followers",
+                "following_url": "https://api.github.com/users/vxunderground/following{/other_user}",
+                "gists_url": "https://api.github.com/users/vxunderground/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/vxunderground/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/vxunderground/subscriptions",
+                "organizations_url": "https://api.github.com/users/vxunderground/orgs",
+                "repos_url": "https://api.github.com/users/vxunderground/repos",
+                "events_url": "https://api.github.com/users/vxunderground/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/vxunderground/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/vxunderground/MalwareSourceCode",
+            "description": "Collection of malware source code for a variety of platforms in an array of different programming languages.",
+            "fork": false,
+            "url": "https://api.github.com/repos/vxunderground/MalwareSourceCode",
+            "forks_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/forks",
+            "keys_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/teams",
+            "hooks_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/hooks",
+            "issue_events_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/events",
+            "assignees_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/tags",
+            "blobs_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/languages",
+            "stargazers_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/stargazers",
+            "contributors_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/contributors",
+            "subscribers_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/subscribers",
+            "subscription_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/subscription",
+            "commits_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/merges",
+            "archive_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/downloads",
+            "issues_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/labels{/name}",
+            "releases_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/vxunderground/MalwareSourceCode/deployments",
+            "created_at": "2020-10-10T02:48:57Z",
+            "updated_at": "2024-01-04T19:42:15Z",
+            "pushed_at": "2023-12-21T09:43:48Z",
+            "git_url": "git://github.com/vxunderground/MalwareSourceCode.git",
+            "ssh_url": "git@github.com:vxunderground/MalwareSourceCode.git",
+            "clone_url": "https://github.com/vxunderground/MalwareSourceCode.git",
+            "svn_url": "https://github.com/vxunderground/MalwareSourceCode",
+            "homepage": "https://vx-underground.org",
+            "size": 1835630,
+            "stargazers_count": 14715,
+            "watchers_count": 14715,
+            "language": "Assembly",
+            "has_issues": true,
+            "has_projects": false,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 1706,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 2,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "malware",
+                "malware-detection",
+                "malware-development",
+                "malware-research"
+            ],
+            "visibility": "public",
+            "forks": 1706,
+            "open_issues": 2,
+            "watchers": 14715,
+            "default_branch": "main",
+            "score": 1.0
+        },
+        {
+            "id": 34096,
+            "node_id": "MDEwOlJlcG9zaXRvcnkzNDA5Ng==",
+            "name": "hello-world",
+            "full_name": "leachim6/hello-world",
+            "private": false,
+            "owner": {
+                "login": "leachim6",
+                "id": 4377,
+                "node_id": "MDQ6VXNlcjQzNzc=",
+                "avatar_url": "https://avatars.githubusercontent.com/u/4377?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/leachim6",
+                "html_url": "https://github.com/leachim6",
+                "followers_url": "https://api.github.com/users/leachim6/followers",
+                "following_url": "https://api.github.com/users/leachim6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/leachim6/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/leachim6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/leachim6/subscriptions",
+                "organizations_url": "https://api.github.com/users/leachim6/orgs",
+                "repos_url": "https://api.github.com/users/leachim6/repos",
+                "events_url": "https://api.github.com/users/leachim6/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/leachim6/received_events",
+                "type": "User",
+                "site_admin": true
+            },
+            "html_url": "https://github.com/leachim6/hello-world",
+            "description": "Hello world in every computer language.  Thanks to everyone who contributes to this, make sure to see contributing.md for contribution instructions!",
+            "fork": false,
+            "url": "https://api.github.com/repos/leachim6/hello-world",
+            "forks_url": "https://api.github.com/repos/leachim6/hello-world/forks",
+            "keys_url": "https://api.github.com/repos/leachim6/hello-world/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/leachim6/hello-world/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/leachim6/hello-world/teams",
+            "hooks_url": "https://api.github.com/repos/leachim6/hello-world/hooks",
+            "issue_events_url": "https://api.github.com/repos/leachim6/hello-world/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/leachim6/hello-world/events",
+            "assignees_url": "https://api.github.com/repos/leachim6/hello-world/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/leachim6/hello-world/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/leachim6/hello-world/tags",
+            "blobs_url": "https://api.github.com/repos/leachim6/hello-world/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/leachim6/hello-world/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/leachim6/hello-world/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/leachim6/hello-world/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/leachim6/hello-world/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/leachim6/hello-world/languages",
+            "stargazers_url": "https://api.github.com/repos/leachim6/hello-world/stargazers",
+            "contributors_url": "https://api.github.com/repos/leachim6/hello-world/contributors",
+            "subscribers_url": "https://api.github.com/repos/leachim6/hello-world/subscribers",
+            "subscription_url": "https://api.github.com/repos/leachim6/hello-world/subscription",
+            "commits_url": "https://api.github.com/repos/leachim6/hello-world/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/leachim6/hello-world/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/leachim6/hello-world/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/leachim6/hello-world/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/leachim6/hello-world/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/leachim6/hello-world/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/leachim6/hello-world/merges",
+            "archive_url": "https://api.github.com/repos/leachim6/hello-world/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/leachim6/hello-world/downloads",
+            "issues_url": "https://api.github.com/repos/leachim6/hello-world/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/leachim6/hello-world/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/leachim6/hello-world/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/leachim6/hello-world/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/leachim6/hello-world/labels{/name}",
+            "releases_url": "https://api.github.com/repos/leachim6/hello-world/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/leachim6/hello-world/deployments",
+            "created_at": "2008-07-15T00:15:08Z",
+            "updated_at": "2024-01-04T15:43:14Z",
+            "pushed_at": "2024-01-05T03:11:24Z",
+            "git_url": "git://github.com/leachim6/hello-world.git",
+            "ssh_url": "git@github.com:leachim6/hello-world.git",
+            "clone_url": "https://github.com/leachim6/hello-world.git",
+            "svn_url": "https://github.com/leachim6/hello-world",
+            "homepage": "http://github.com/leachim6/hello-world/wikis",
+            "size": 5294,
+            "stargazers_count": 10391,
+            "watchers_count": 10391,
+            "language": "Assembly",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 1898,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 45,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "esolangs",
+                "example-code",
+                "hacktoberfest",
+                "hello-world"
+            ],
+            "visibility": "public",
+            "forks": 1898,
+            "open_issues": 45,
+            "watchers": 10391,
+            "default_branch": "main",
+            "score": 1.0
+        },
+        {
+            "id": 32939463,
+            "node_id": "MDEwOlJlcG9zaXRvcnkzMjkzOTQ2Mw==",
+            "name": "pics",
+            "full_name": "corkami/pics",
+            "private": false,
+            "owner": {
+                "login": "corkami",
+                "id": 11667564,
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjExNjY3NTY0",
+                "avatar_url": "https://avatars.githubusercontent.com/u/11667564?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/corkami",
+                "html_url": "https://github.com/corkami",
+                "followers_url": "https://api.github.com/users/corkami/followers",
+                "following_url": "https://api.github.com/users/corkami/following{/other_user}",
+                "gists_url": "https://api.github.com/users/corkami/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/corkami/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/corkami/subscriptions",
+                "organizations_url": "https://api.github.com/users/corkami/orgs",
+                "repos_url": "https://api.github.com/users/corkami/repos",
+                "events_url": "https://api.github.com/users/corkami/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/corkami/received_events",
+                "type": "Organization",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/corkami/pics",
+            "description": "File formats explanations, logos redrawing...",
+            "fork": false,
+            "url": "https://api.github.com/repos/corkami/pics",
+            "forks_url": "https://api.github.com/repos/corkami/pics/forks",
+            "keys_url": "https://api.github.com/repos/corkami/pics/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/corkami/pics/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/corkami/pics/teams",
+            "hooks_url": "https://api.github.com/repos/corkami/pics/hooks",
+            "issue_events_url": "https://api.github.com/repos/corkami/pics/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/corkami/pics/events",
+            "assignees_url": "https://api.github.com/repos/corkami/pics/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/corkami/pics/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/corkami/pics/tags",
+            "blobs_url": "https://api.github.com/repos/corkami/pics/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/corkami/pics/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/corkami/pics/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/corkami/pics/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/corkami/pics/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/corkami/pics/languages",
+            "stargazers_url": "https://api.github.com/repos/corkami/pics/stargazers",
+            "contributors_url": "https://api.github.com/repos/corkami/pics/contributors",
+            "subscribers_url": "https://api.github.com/repos/corkami/pics/subscribers",
+            "subscription_url": "https://api.github.com/repos/corkami/pics/subscription",
+            "commits_url": "https://api.github.com/repos/corkami/pics/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/corkami/pics/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/corkami/pics/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/corkami/pics/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/corkami/pics/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/corkami/pics/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/corkami/pics/merges",
+            "archive_url": "https://api.github.com/repos/corkami/pics/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/corkami/pics/downloads",
+            "issues_url": "https://api.github.com/repos/corkami/pics/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/corkami/pics/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/corkami/pics/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/corkami/pics/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/corkami/pics/labels{/name}",
+            "releases_url": "https://api.github.com/repos/corkami/pics/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/corkami/pics/deployments",
+            "created_at": "2015-03-26T16:38:29Z",
+            "updated_at": "2024-01-04T15:59:23Z",
+            "pushed_at": "2023-10-11T08:30:50Z",
+            "git_url": "git://github.com/corkami/pics.git",
+            "ssh_url": "git@github.com:corkami/pics.git",
+            "clone_url": "https://github.com/corkami/pics.git",
+            "svn_url": "https://github.com/corkami/pics",
+            "homepage": "",
+            "size": 93730,
+            "stargazers_count": 10114,
+            "watchers_count": 10114,
+            "language": "Assembly",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 741,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 4,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "dissection",
+                "fileformats",
+                "patreon",
+                "poster"
+            ],
+            "visibility": "public",
+            "forks": 741,
+            "open_issues": 4,
+            "watchers": 10114,
+            "default_branch": "master",
+            "score": 1.0
+        }
+    ]
+}
+{
+    "total_count": 9,
+    "incomplete_results": false,
+    "items": [
+        {
+            "id": 738893158,
+            "node_id": "R_kgDOLAqdZg",
+            "name": "edrdos",
+            "full_name": "roytam1/edrdos",
+            "private": false,
+            "owner": {
+                "login": "roytam1",
+                "id": 1192577,
+                "node_id": "MDQ6VXNlcjExOTI1Nzc=",
+                "avatar_url": "https://avatars.githubusercontent.com/u/1192577?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/roytam1",
+                "html_url": "https://github.com/roytam1",
+                "followers_url": "https://api.github.com/users/roytam1/followers",
+                "following_url": "https://api.github.com/users/roytam1/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roytam1/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/roytam1/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roytam1/subscriptions",
+                "organizations_url": "https://api.github.com/users/roytam1/orgs",
+                "repos_url": "https://api.github.com/users/roytam1/repos",
+                "events_url": "https://api.github.com/users/roytam1/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/roytam1/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/roytam1/edrdos",
+            "description": "A recreation of Enhanced DR-DOS project history from Release and WIP patches.",
+            "fork": false,
+            "url": "https://api.github.com/repos/roytam1/edrdos",
+            "forks_url": "https://api.github.com/repos/roytam1/edrdos/forks",
+            "keys_url": "https://api.github.com/repos/roytam1/edrdos/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/roytam1/edrdos/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/roytam1/edrdos/teams",
+            "hooks_url": "https://api.github.com/repos/roytam1/edrdos/hooks",
+            "issue_events_url": "https://api.github.com/repos/roytam1/edrdos/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/roytam1/edrdos/events",
+            "assignees_url": "https://api.github.com/repos/roytam1/edrdos/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/roytam1/edrdos/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/roytam1/edrdos/tags",
+            "blobs_url": "https://api.github.com/repos/roytam1/edrdos/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/roytam1/edrdos/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/roytam1/edrdos/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/roytam1/edrdos/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/roytam1/edrdos/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/roytam1/edrdos/languages",
+            "stargazers_url": "https://api.github.com/repos/roytam1/edrdos/stargazers",
+            "contributors_url": "https://api.github.com/repos/roytam1/edrdos/contributors",
+            "subscribers_url": "https://api.github.com/repos/roytam1/edrdos/subscribers",
+            "subscription_url": "https://api.github.com/repos/roytam1/edrdos/subscription",
+            "commits_url": "https://api.github.com/repos/roytam1/edrdos/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/roytam1/edrdos/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/roytam1/edrdos/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/roytam1/edrdos/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/roytam1/edrdos/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/roytam1/edrdos/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/roytam1/edrdos/merges",
+            "archive_url": "https://api.github.com/repos/roytam1/edrdos/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/roytam1/edrdos/downloads",
+            "issues_url": "https://api.github.com/repos/roytam1/edrdos/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/roytam1/edrdos/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/roytam1/edrdos/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/roytam1/edrdos/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/roytam1/edrdos/labels{/name}",
+            "releases_url": "https://api.github.com/repos/roytam1/edrdos/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/roytam1/edrdos/deployments",
+            "created_at": "2024-01-04T09:40:22Z",
+            "updated_at": "2024-01-04T22:58:33Z",
+            "pushed_at": "2024-01-04T09:41:22Z",
+            "git_url": "git://github.com/roytam1/edrdos.git",
+            "ssh_url": "git@github.com:roytam1/edrdos.git",
+            "clone_url": "https://github.com/roytam1/edrdos.git",
+            "svn_url": "https://github.com/roytam1/edrdos",
+            "homepage": "",
+            "size": 953,
+            "stargazers_count": 3,
+            "watchers_count": 3,
+            "language": "Assembly",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "other",
+                "name": "Other",
+                "spdx_id": "NOASSERTION",
+                "url": null,
+                "node_id": "MDc6TGljZW5zZTA="
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "dos",
+                "dr-dos"
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 3,
+            "default_branch": "master",
+            "score": 1.0
+        },
+        {
+            "id": 738248177,
+            "node_id": "R_kgDOLADF8Q",
+            "name": "Vidsync",
+            "full_name": "jhhoward/Vidsync",
+            "private": false,
+            "owner": {
+                "login": "jhhoward",
+                "id": 1665740,
+                "node_id": "MDQ6VXNlcjE2NjU3NDA=",
+                "avatar_url": "https://avatars.githubusercontent.com/u/1665740?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/jhhoward",
+                "html_url": "https://github.com/jhhoward",
+                "followers_url": "https://api.github.com/users/jhhoward/followers",
+                "following_url": "https://api.github.com/users/jhhoward/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jhhoward/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/jhhoward/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jhhoward/subscriptions",
+                "organizations_url": "https://api.github.com/users/jhhoward/orgs",
+                "repos_url": "https://api.github.com/users/jhhoward/repos",
+                "events_url": "https://api.github.com/users/jhhoward/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/jhhoward/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/jhhoward/Vidsync",
+            "description": "A DOS terminate and stay resident (TSR) program to fix display calibration for the Book8088",
+            "fork": false,
+            "url": "https://api.github.com/repos/jhhoward/Vidsync",
+            "forks_url": "https://api.github.com/repos/jhhoward/Vidsync/forks",
+            "keys_url": "https://api.github.com/repos/jhhoward/Vidsync/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jhhoward/Vidsync/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jhhoward/Vidsync/teams",
+            "hooks_url": "https://api.github.com/repos/jhhoward/Vidsync/hooks",
+            "issue_events_url": "https://api.github.com/repos/jhhoward/Vidsync/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jhhoward/Vidsync/events",
+            "assignees_url": "https://api.github.com/repos/jhhoward/Vidsync/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jhhoward/Vidsync/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jhhoward/Vidsync/tags",
+            "blobs_url": "https://api.github.com/repos/jhhoward/Vidsync/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jhhoward/Vidsync/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jhhoward/Vidsync/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jhhoward/Vidsync/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jhhoward/Vidsync/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jhhoward/Vidsync/languages",
+            "stargazers_url": "https://api.github.com/repos/jhhoward/Vidsync/stargazers",
+            "contributors_url": "https://api.github.com/repos/jhhoward/Vidsync/contributors",
+            "subscribers_url": "https://api.github.com/repos/jhhoward/Vidsync/subscribers",
+            "subscription_url": "https://api.github.com/repos/jhhoward/Vidsync/subscription",
+            "commits_url": "https://api.github.com/repos/jhhoward/Vidsync/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jhhoward/Vidsync/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jhhoward/Vidsync/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jhhoward/Vidsync/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/jhhoward/Vidsync/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jhhoward/Vidsync/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jhhoward/Vidsync/merges",
+            "archive_url": "https://api.github.com/repos/jhhoward/Vidsync/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jhhoward/Vidsync/downloads",
+            "issues_url": "https://api.github.com/repos/jhhoward/Vidsync/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jhhoward/Vidsync/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jhhoward/Vidsync/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jhhoward/Vidsync/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jhhoward/Vidsync/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jhhoward/Vidsync/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/jhhoward/Vidsync/deployments",
+            "created_at": "2024-01-02T19:33:11Z",
+            "updated_at": "2024-01-03T00:18:23Z",
+            "pushed_at": "2024-01-02T21:30:07Z",
+            "git_url": "git://github.com/jhhoward/Vidsync.git",
+            "ssh_url": "git@github.com:jhhoward/Vidsync.git",
+            "clone_url": "https://github.com/jhhoward/Vidsync.git",
+            "svn_url": "https://github.com/jhhoward/Vidsync",
+            "homepage": null,
+            "size": 281,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "Assembly",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0",
+                "node_id": "MDc6TGljZW5zZTk="
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "score": 1.0
+        },
+        {
+            "id": 738808638,
+            "node_id": "R_kgDOLAlTPg",
+            "name": "Fruit-Stall-System-TASM",
+            "full_name": "Despereaux0/Fruit-Stall-System-TASM",
+            "private": false,
+            "owner": {
+                "login": "Despereaux0",
+                "id": 145767722,
+                "node_id": "U_kgDOCLA9Kg",
+                "avatar_url": "https://avatars.githubusercontent.com/u/145767722?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Despereaux0",
+                "html_url": "https://github.com/Despereaux0",
+                "followers_url": "https://api.github.com/users/Despereaux0/followers",
+                "following_url": "https://api.github.com/users/Despereaux0/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Despereaux0/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/Despereaux0/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Despereaux0/subscriptions",
+                "organizations_url": "https://api.github.com/users/Despereaux0/orgs",
+                "repos_url": "https://api.github.com/users/Despereaux0/repos",
+                "events_url": "https://api.github.com/users/Despereaux0/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/Despereaux0/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Despereaux0/Fruit-Stall-System-TASM",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM",
+            "forks_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/forks",
+            "keys_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/teams",
+            "hooks_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/hooks",
+            "issue_events_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/events",
+            "assignees_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/tags",
+            "blobs_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/languages",
+            "stargazers_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/stargazers",
+            "contributors_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/contributors",
+            "subscribers_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/subscribers",
+            "subscription_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/subscription",
+            "commits_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/merges",
+            "archive_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/downloads",
+            "issues_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/Despereaux0/Fruit-Stall-System-TASM/deployments",
+            "created_at": "2024-01-04T05:07:50Z",
+            "updated_at": "2024-01-04T05:40:37Z",
+            "pushed_at": "2024-01-04T05:09:13Z",
+            "git_url": "git://github.com/Despereaux0/Fruit-Stall-System-TASM.git",
+            "ssh_url": "git@github.com:Despereaux0/Fruit-Stall-System-TASM.git",
+            "clone_url": "https://github.com/Despereaux0/Fruit-Stall-System-TASM.git",
+            "svn_url": "https://github.com/Despereaux0/Fruit-Stall-System-TASM",
+            "homepage": null,
+            "size": 5,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "Assembly",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "score": 1.0
+        },
+        {
+            "id": 738129113,
+            "node_id": "R_kgDOK_702Q",
+            "name": "Microprocessors-and-Microcontrollers",
+            "full_name": "Dulal-CSEcode/Microprocessors-and-Microcontrollers",
+            "private": false,
+            "owner": {
+                "login": "Dulal-CSEcode",
+                "id": 112533806,
+                "node_id": "U_kgDOBrUhLg",
+                "avatar_url": "https://avatars.githubusercontent.com/u/112533806?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Dulal-CSEcode",
+                "html_url": "https://github.com/Dulal-CSEcode",
+                "followers_url": "https://api.github.com/users/Dulal-CSEcode/followers",
+                "following_url": "https://api.github.com/users/Dulal-CSEcode/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Dulal-CSEcode/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/Dulal-CSEcode/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Dulal-CSEcode/subscriptions",
+                "organizations_url": "https://api.github.com/users/Dulal-CSEcode/orgs",
+                "repos_url": "https://api.github.com/users/Dulal-CSEcode/repos",
+                "events_url": "https://api.github.com/users/Dulal-CSEcode/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/Dulal-CSEcode/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Dulal-CSEcode/Microprocessors-and-Microcontrollers",
+            "description": "Ussing Assemly Language",
+            "fork": false,
+            "url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers",
+            "forks_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/forks",
+            "keys_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/teams",
+            "hooks_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/hooks",
+            "issue_events_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/events",
+            "assignees_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/tags",
+            "blobs_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/languages",
+            "stargazers_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/stargazers",
+            "contributors_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/contributors",
+            "subscribers_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/subscribers",
+            "subscription_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/subscription",
+            "commits_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/merges",
+            "archive_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/downloads",
+            "issues_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/Dulal-CSEcode/Microprocessors-and-Microcontrollers/deployments",
+            "created_at": "2024-01-02T13:48:38Z",
+            "updated_at": "2024-01-02T13:51:42Z",
+            "pushed_at": "2024-01-02T13:51:21Z",
+            "git_url": "git://github.com/Dulal-CSEcode/Microprocessors-and-Microcontrollers.git",
+            "ssh_url": "git@github.com:Dulal-CSEcode/Microprocessors-and-Microcontrollers.git",
+            "clone_url": "https://github.com/Dulal-CSEcode/Microprocessors-and-Microcontrollers.git",
+            "svn_url": "https://github.com/Dulal-CSEcode/Microprocessors-and-Microcontrollers",
+            "homepage": null,
+            "size": 63,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "Assembly",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "score": 1.0
+        },
+        {
+            "id": 737963409,
+            "node_id": "R_kgDOK_xtkQ",
+            "name": "arm64_assembly",
+            "full_name": "yhbsh/arm64_assembly",
+            "private": false,
+            "owner": {
+                "login": "yhbsh",
+                "id": 86262467,
+                "node_id": "MDQ6VXNlcjg2MjYyNDY3",
+                "avatar_url": "https://avatars.githubusercontent.com/u/86262467?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/yhbsh",
+                "html_url": "https://github.com/yhbsh",
+                "followers_url": "https://api.github.com/users/yhbsh/followers",
+                "following_url": "https://api.github.com/users/yhbsh/following{/other_user}",
+                "gists_url": "https://api.github.com/users/yhbsh/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/yhbsh/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/yhbsh/subscriptions",
+                "organizations_url": "https://api.github.com/users/yhbsh/orgs",
+                "repos_url": "https://api.github.com/users/yhbsh/repos",
+                "events_url": "https://api.github.com/users/yhbsh/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/yhbsh/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/yhbsh/arm64_assembly",
+            "description": "arm64-assembly-ideas",
+            "fork": false,
+            "url": "https://api.github.com/repos/yhbsh/arm64_assembly",
+            "forks_url": "https://api.github.com/repos/yhbsh/arm64_assembly/forks",
+            "keys_url": "https://api.github.com/repos/yhbsh/arm64_assembly/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/yhbsh/arm64_assembly/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/yhbsh/arm64_assembly/teams",
+            "hooks_url": "https://api.github.com/repos/yhbsh/arm64_assembly/hooks",
+            "issue_events_url": "https://api.github.com/repos/yhbsh/arm64_assembly/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/yhbsh/arm64_assembly/events",
+            "assignees_url": "https://api.github.com/repos/yhbsh/arm64_assembly/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/yhbsh/arm64_assembly/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/yhbsh/arm64_assembly/tags",
+            "blobs_url": "https://api.github.com/repos/yhbsh/arm64_assembly/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/yhbsh/arm64_assembly/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/yhbsh/arm64_assembly/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/yhbsh/arm64_assembly/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/yhbsh/arm64_assembly/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/yhbsh/arm64_assembly/languages",
+            "stargazers_url": "https://api.github.com/repos/yhbsh/arm64_assembly/stargazers",
+            "contributors_url": "https://api.github.com/repos/yhbsh/arm64_assembly/contributors",
+            "subscribers_url": "https://api.github.com/repos/yhbsh/arm64_assembly/subscribers",
+            "subscription_url": "https://api.github.com/repos/yhbsh/arm64_assembly/subscription",
+            "commits_url": "https://api.github.com/repos/yhbsh/arm64_assembly/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/yhbsh/arm64_assembly/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/yhbsh/arm64_assembly/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/yhbsh/arm64_assembly/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/yhbsh/arm64_assembly/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/yhbsh/arm64_assembly/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/yhbsh/arm64_assembly/merges",
+            "archive_url": "https://api.github.com/repos/yhbsh/arm64_assembly/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/yhbsh/arm64_assembly/downloads",
+            "issues_url": "https://api.github.com/repos/yhbsh/arm64_assembly/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/yhbsh/arm64_assembly/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/yhbsh/arm64_assembly/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/yhbsh/arm64_assembly/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/yhbsh/arm64_assembly/labels{/name}",
+            "releases_url": "https://api.github.com/repos/yhbsh/arm64_assembly/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/yhbsh/arm64_assembly/deployments",
+            "created_at": "2024-01-02T04:43:23Z",
+            "updated_at": "2024-01-02T04:45:48Z",
+            "pushed_at": "2024-01-02T04:45:17Z",
+            "git_url": "git://github.com/yhbsh/arm64_assembly.git",
+            "ssh_url": "git@github.com:yhbsh/arm64_assembly.git",
+            "clone_url": "https://github.com/yhbsh/arm64_assembly.git",
+            "svn_url": "https://github.com/yhbsh/arm64_assembly",
+            "homepage": null,
+            "size": 2,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "Assembly",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "score": 1.0
+        },
+        {
+            "id": 738395671,
+            "node_id": "R_kgDOLAMGFw",
+            "name": "Alice32_90_gj",
+            "full_name": "Monos1984/Alice32_90_gj",
+            "private": false,
+            "owner": {
+                "login": "Monos1984",
+                "id": 16206798,
+                "node_id": "MDQ6VXNlcjE2MjA2Nzk4",
+                "avatar_url": "https://avatars.githubusercontent.com/u/16206798?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Monos1984",
+                "html_url": "https://github.com/Monos1984",
+                "followers_url": "https://api.github.com/users/Monos1984/followers",
+                "following_url": "https://api.github.com/users/Monos1984/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Monos1984/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/Monos1984/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Monos1984/subscriptions",
+                "organizations_url": "https://api.github.com/users/Monos1984/orgs",
+                "repos_url": "https://api.github.com/users/Monos1984/repos",
+                "events_url": "https://api.github.com/users/Monos1984/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/Monos1984/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Monos1984/Alice32_90_gj",
+            "description": "Mes test pour le Retro Programmers United for oscure system sur l'alice 32/90",
+            "fork": false,
+            "url": "https://api.github.com/repos/Monos1984/Alice32_90_gj",
+            "forks_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/forks",
+            "keys_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/teams",
+            "hooks_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/hooks",
+            "issue_events_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/events",
+            "assignees_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/tags",
+            "blobs_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/languages",
+            "stargazers_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/stargazers",
+            "contributors_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/contributors",
+            "subscribers_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/subscribers",
+            "subscription_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/subscription",
+            "commits_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/merges",
+            "archive_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/downloads",
+            "issues_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/Monos1984/Alice32_90_gj/deployments",
+            "created_at": "2024-01-03T06:06:54Z",
+            "updated_at": "2024-01-03T11:16:31Z",
+            "pushed_at": "2024-01-04T05:58:41Z",
+            "git_url": "git://github.com/Monos1984/Alice32_90_gj.git",
+            "ssh_url": "git@github.com:Monos1984/Alice32_90_gj.git",
+            "clone_url": "https://github.com/Monos1984/Alice32_90_gj.git",
+            "svn_url": "https://github.com/Monos1984/Alice32_90_gj",
+            "homepage": null,
+            "size": 4,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "Assembly",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "score": 1.0
+        },
+        {
+            "id": 738664214,
+            "node_id": "R_kgDOLAcfFg",
+            "name": "algorithms",
+            "full_name": "gulybyte/algorithms",
+            "private": false,
+            "owner": {
+                "login": "gulybyte",
+                "id": 93813422,
+                "node_id": "U_kgDOBZd6rg",
+                "avatar_url": "https://avatars.githubusercontent.com/u/93813422?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/gulybyte",
+                "html_url": "https://github.com/gulybyte",
+                "followers_url": "https://api.github.com/users/gulybyte/followers",
+                "following_url": "https://api.github.com/users/gulybyte/following{/other_user}",
+                "gists_url": "https://api.github.com/users/gulybyte/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/gulybyte/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/gulybyte/subscriptions",
+                "organizations_url": "https://api.github.com/users/gulybyte/orgs",
+                "repos_url": "https://api.github.com/users/gulybyte/repos",
+                "events_url": "https://api.github.com/users/gulybyte/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/gulybyte/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/gulybyte/algorithms",
+            "description": "A place where I play with algorithms",
+            "fork": false,
+            "url": "https://api.github.com/repos/gulybyte/algorithms",
+            "forks_url": "https://api.github.com/repos/gulybyte/algorithms/forks",
+            "keys_url": "https://api.github.com/repos/gulybyte/algorithms/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/gulybyte/algorithms/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/gulybyte/algorithms/teams",
+            "hooks_url": "https://api.github.com/repos/gulybyte/algorithms/hooks",
+            "issue_events_url": "https://api.github.com/repos/gulybyte/algorithms/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/gulybyte/algorithms/events",
+            "assignees_url": "https://api.github.com/repos/gulybyte/algorithms/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/gulybyte/algorithms/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/gulybyte/algorithms/tags",
+            "blobs_url": "https://api.github.com/repos/gulybyte/algorithms/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/gulybyte/algorithms/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/gulybyte/algorithms/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/gulybyte/algorithms/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/gulybyte/algorithms/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/gulybyte/algorithms/languages",
+            "stargazers_url": "https://api.github.com/repos/gulybyte/algorithms/stargazers",
+            "contributors_url": "https://api.github.com/repos/gulybyte/algorithms/contributors",
+            "subscribers_url": "https://api.github.com/repos/gulybyte/algorithms/subscribers",
+            "subscription_url": "https://api.github.com/repos/gulybyte/algorithms/subscription",
+            "commits_url": "https://api.github.com/repos/gulybyte/algorithms/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/gulybyte/algorithms/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/gulybyte/algorithms/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/gulybyte/algorithms/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/gulybyte/algorithms/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/gulybyte/algorithms/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/gulybyte/algorithms/merges",
+            "archive_url": "https://api.github.com/repos/gulybyte/algorithms/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/gulybyte/algorithms/downloads",
+            "issues_url": "https://api.github.com/repos/gulybyte/algorithms/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/gulybyte/algorithms/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/gulybyte/algorithms/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/gulybyte/algorithms/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/gulybyte/algorithms/labels{/name}",
+            "releases_url": "https://api.github.com/repos/gulybyte/algorithms/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/gulybyte/algorithms/deployments",
+            "created_at": "2024-01-03T18:50:30Z",
+            "updated_at": "2024-01-03T19:33:04Z",
+            "pushed_at": "2024-01-04T19:13:53Z",
+            "git_url": "git://github.com/gulybyte/algorithms.git",
+            "ssh_url": "git@github.com:gulybyte/algorithms.git",
+            "clone_url": "https://github.com/gulybyte/algorithms.git",
+            "svn_url": "https://github.com/gulybyte/algorithms",
+            "homepage": null,
+            "size": 547,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "Assembly",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 2,
+            "license": {
+                "key": "cc0-1.0",
+                "name": "Creative Commons Zero v1.0 Universal",
+                "spdx_id": "CC0-1.0",
+                "url": "https://api.github.com/licenses/cc0-1.0",
+                "node_id": "MDc6TGljZW5zZTY="
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 2,
+            "watchers": 1,
+            "default_branch": "main",
+            "score": 1.0
+        },
+        {
+            "id": 739009454,
+            "node_id": "R_kgDOLAxjrg",
+            "name": "GravGenOS",
+            "full_name": "SidVer312/GravGenOS",
+            "private": false,
+            "owner": {
+                "login": "SidVer312",
+                "id": 57825216,
+                "node_id": "MDQ6VXNlcjU3ODI1MjE2",
+                "avatar_url": "https://avatars.githubusercontent.com/u/57825216?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/SidVer312",
+                "html_url": "https://github.com/SidVer312",
+                "followers_url": "https://api.github.com/users/SidVer312/followers",
+                "following_url": "https://api.github.com/users/SidVer312/following{/other_user}",
+                "gists_url": "https://api.github.com/users/SidVer312/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/SidVer312/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/SidVer312/subscriptions",
+                "organizations_url": "https://api.github.com/users/SidVer312/orgs",
+                "repos_url": "https://api.github.com/users/SidVer312/repos",
+                "events_url": "https://api.github.com/users/SidVer312/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/SidVer312/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/SidVer312/GravGenOS",
+            "description": "Decided to make my own OS, purely to understand Low Level Hardware and Programming",
+            "fork": false,
+            "url": "https://api.github.com/repos/SidVer312/GravGenOS",
+            "forks_url": "https://api.github.com/repos/SidVer312/GravGenOS/forks",
+            "keys_url": "https://api.github.com/repos/SidVer312/GravGenOS/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/SidVer312/GravGenOS/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/SidVer312/GravGenOS/teams",
+            "hooks_url": "https://api.github.com/repos/SidVer312/GravGenOS/hooks",
+            "issue_events_url": "https://api.github.com/repos/SidVer312/GravGenOS/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/SidVer312/GravGenOS/events",
+            "assignees_url": "https://api.github.com/repos/SidVer312/GravGenOS/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/SidVer312/GravGenOS/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/SidVer312/GravGenOS/tags",
+            "blobs_url": "https://api.github.com/repos/SidVer312/GravGenOS/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/SidVer312/GravGenOS/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/SidVer312/GravGenOS/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/SidVer312/GravGenOS/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/SidVer312/GravGenOS/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/SidVer312/GravGenOS/languages",
+            "stargazers_url": "https://api.github.com/repos/SidVer312/GravGenOS/stargazers",
+            "contributors_url": "https://api.github.com/repos/SidVer312/GravGenOS/contributors",
+            "subscribers_url": "https://api.github.com/repos/SidVer312/GravGenOS/subscribers",
+            "subscription_url": "https://api.github.com/repos/SidVer312/GravGenOS/subscription",
+            "commits_url": "https://api.github.com/repos/SidVer312/GravGenOS/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/SidVer312/GravGenOS/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/SidVer312/GravGenOS/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/SidVer312/GravGenOS/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/SidVer312/GravGenOS/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/SidVer312/GravGenOS/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/SidVer312/GravGenOS/merges",
+            "archive_url": "https://api.github.com/repos/SidVer312/GravGenOS/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/SidVer312/GravGenOS/downloads",
+            "issues_url": "https://api.github.com/repos/SidVer312/GravGenOS/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/SidVer312/GravGenOS/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/SidVer312/GravGenOS/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/SidVer312/GravGenOS/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/SidVer312/GravGenOS/labels{/name}",
+            "releases_url": "https://api.github.com/repos/SidVer312/GravGenOS/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/SidVer312/GravGenOS/deployments",
+            "created_at": "2024-01-04T15:05:59Z",
+            "updated_at": "2024-01-04T15:19:14Z",
+            "pushed_at": "2024-01-04T15:10:53Z",
+            "git_url": "git://github.com/SidVer312/GravGenOS.git",
+            "ssh_url": "git@github.com:SidVer312/GravGenOS.git",
+            "clone_url": "https://github.com/SidVer312/GravGenOS.git",
+            "svn_url": "https://github.com/SidVer312/GravGenOS",
+            "homepage": null,
+            "size": 4,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "Assembly",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "score": 1.0
+        },
+        {
+            "id": 738804044,
+            "node_id": "R_kgDOLAlBTA",
+            "name": "Assembly8086CovoxPcmPlayer",
+            "full_name": "leonardo-ono/Assembly8086CovoxPcmPlayer",
+            "private": false,
+            "owner": {
+                "login": "leonardo-ono",
+                "id": 424817,
+                "node_id": "MDQ6VXNlcjQyNDgxNw==",
+                "avatar_url": "https://avatars.githubusercontent.com/u/424817?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/leonardo-ono",
+                "html_url": "https://github.com/leonardo-ono",
+                "followers_url": "https://api.github.com/users/leonardo-ono/followers",
+                "following_url": "https://api.github.com/users/leonardo-ono/following{/other_user}",
+                "gists_url": "https://api.github.com/users/leonardo-ono/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/leonardo-ono/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/leonardo-ono/subscriptions",
+                "organizations_url": "https://api.github.com/users/leonardo-ono/orgs",
+                "repos_url": "https://api.github.com/users/leonardo-ono/repos",
+                "events_url": "https://api.github.com/users/leonardo-ono/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/leonardo-ono/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/leonardo-ono/Assembly8086CovoxPcmPlayer",
+            "description": "Very simple COVOX PCM audio player in Assembly 8086.",
+            "fork": false,
+            "url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer",
+            "forks_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/forks",
+            "keys_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/teams",
+            "hooks_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/hooks",
+            "issue_events_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/events",
+            "assignees_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/tags",
+            "blobs_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/languages",
+            "stargazers_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/stargazers",
+            "contributors_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/contributors",
+            "subscribers_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/subscribers",
+            "subscription_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/subscription",
+            "commits_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/merges",
+            "archive_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/downloads",
+            "issues_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/labels{/name}",
+            "releases_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/leonardo-ono/Assembly8086CovoxPcmPlayer/deployments",
+            "created_at": "2024-01-04T04:48:51Z",
+            "updated_at": "2024-01-04T12:26:10Z",
+            "pushed_at": "2024-01-04T04:50:24Z",
+            "git_url": "git://github.com/leonardo-ono/Assembly8086CovoxPcmPlayer.git",
+            "ssh_url": "git@github.com:leonardo-ono/Assembly8086CovoxPcmPlayer.git",
+            "clone_url": "https://github.com/leonardo-ono/Assembly8086CovoxPcmPlayer.git",
+            "svn_url": "https://github.com/leonardo-ono/Assembly8086CovoxPcmPlayer",
+            "homepage": "https://youtu.be/x2SR3GQDzW0",
+            "size": 41,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "Assembly",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "score": 1.0
+        }
+    ]
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user searches for Github repository with keyword &amp#27;[0m&amp#27;[32m&amp#27;[1m"size:1024"&amp#27;[0m                                                       &amp#27;[90m# steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user searches for Github repository with keyword &amp#27;[0m&amp#27;[32m&amp#27;[1m"size:100000"&amp#27;[0m                                &amp#27;[90m# steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user searches for Github repository with keyword &amp#27;[0m&amp#27;[32m&amp#27;[1m"Java"&amp#27;[0m                                                                &amp#27;[90m# steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user searches for Github repository with keyword &amp#27;[0m&amp#27;[32m&amp#27;[1m"PyTHOn"&amp#27;[0m                                                                &amp#27;[90m# steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Search Repository API returns successful response with status code &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m with expected &amp#27;[0m&amp#27;[32m&amp#27;[1m"1024"&amp#27;[0m&amp#27;[32m in the &amp#27;[0m&amp#27;[32m&amp#27;[1m"items[0].size"&amp#27;[0m &amp#27;[90m# steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_code(java.lang.Integer,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Search Repository API returns successful response with status code &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m with expected &amp#27;[0m&amp#27;[32m&amp#27;[1m"11"&amp#27;[0m&amp#27;[32m in the &amp#27;[0m&amp#27;[32m&amp#27;[1m"total_count"&amp#27;[0m &amp#27;[90m# steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_code(java.lang.Integer,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Search Repository API returns successful response with status code &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m matching the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Assembly"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"10000"&amp#27;[0m&amp#27;[32m count&amp#27;[0m &amp#27;[90m# steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_code_matching_the_criteria(int,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Search Repository API returns successful response with status code &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m with expected &amp#27;[0m&amp#27;[32m&amp#27;[1m"Java"&amp#27;[0m&amp#27;[32m in the &amp#27;[0m&amp#27;[32m&amp#27;[1m"items[0].language"&amp#27;[0m &amp#27;[90m# steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_code(java.lang.Integer,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Search Repository API returns successful response with status code &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m matching the repo size&amp#27;[0m &amp#27;[90m# steps.searchSteps.verify_repo_with_size(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Search Repository API returns successful response with status code &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m matching the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Assembly"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"1,5"&amp#27;[0m&amp#27;[32m count&amp#27;[0m         &amp#27;[90m# steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_code_matching_the_criteria(int,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Search Repository API returns successful response with status code &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m with expected &amp#27;[0m&amp#27;[32m&amp#27;[1m"Python"&amp#27;[0m&amp#27;[32m in the &amp#27;[0m&amp#27;[32m&amp#27;[1m"items[0].language"&amp#27;[0m &amp#27;[90m# steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_code(java.lang.Integer,java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;](3)" classname="runner.TestRunner" time="0"/>
+  <testcase name="runScenario[&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;](4)" classname="runner.TestRunner" time="0"/>
+  <testcase name="runScenario[&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;](5)" classname="runner.TestRunner" time="0"/>
+  <testcase name="runScenario[&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;](5)" classname="runner.TestRunner" time="0"/>
+  <testcase name="runScenario[&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;](6)" classname="runner.TestRunner" time="0"/>
+  <testcase name="runScenario[&quot;Search with queries and sort&quot;, &quot;Optional[Search]&quot;](7)" classname="runner.TestRunner" time="0.083">
+    <system-out><![CDATA[
+Scenario: Search Repository API validation error                                         &amp#27;[90m# src/test/resources/features/search.feature:68&amp#27;[0m
+
+Scenario Outline: Search repo that doesnt exist                           &amp#27;[90m# src/test/resources/features/search.feature:65&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user sets the baseURL for the Search API&amp#27;[0m                      &amp#27;[90m# steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()&amp#27;[0m
+
+Scenario Outline: Search repo that doesnt exist                          &amp#27;[90m# src/test/resources/features/search.feature:66&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user sets the baseURL for the Search API&amp#27;[0m                     &amp#27;[90m# steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Search Repository API returns successful response with status &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m and displays results in the given &amp#27;[0m&amp#27;[32m&amp#27;[1m"desc"&amp#27;[0m &amp#27;[90m# steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_and_displays_results_in_the_given_order(int,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Search with queries and sort&quot;, &quot;Optional[Search]&quot;](8)" classname="runner.TestRunner" time="0.085">
+    <system-out><![CDATA[  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Search Repository API returns successful response with status &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m and displays results in the given &amp#27;[0m&amp#27;[32m&amp#27;[1m"asc"&amp#27;[0m &amp#27;[90m# steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_and_displays_results_in_the_given_order(int,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Search with queries and sort&quot;, &quot;Optional[Search]&quot;](9)" classname="runner.TestRunner" time="0.101">
+    <system-out><![CDATA[  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Search Repository API returns successful response with status &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m and displays results in the given &amp#27;[0m&amp#27;[32m&amp#27;[1m"null"&amp#27;[0m &amp#27;[90m# steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_and_displays_results_in_the_given_order(int,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;](10)" classname="runner.TestRunner" time="0.126">
+    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Search Repository displays the filtered results with &amp#27;[0m&amp#27;[32m&amp#27;[1m"2024-01-01"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"2024-01-01"&amp#27;[0m                                      &amp#27;[90m# steps.searchSteps.the_search_repository_displays_the_filtered_results_with_and(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Search repo that doesnt exist&quot;, &quot;Optional[Search]&quot;](11)" classname="runner.TestRunner" time="0.256">
+    <failure message="expected [200] but found [403]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [403]
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user searches for Github repository with keyword &amp#27;[0m&amp#27;[32m&amp#27;[1m"!@#$%^&*()"&amp#27;[0m &amp#27;[90m# steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mThe Search Repository API returns response with empty search item&amp#27;[0m &amp#27;[90m# steps.searchSteps.verify_empty_list_for_nonexistent_repo()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [200] but found [403]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at steps.searchSteps.verify_empty_list_for_nonexistent_repo(searchSteps.java:71)
+	at âœ½.The Search Repository API returns response with empty search item(file:///C:/Users/Shalini/IdeaProjects/SearchRepo/src/test/resources/features/search.feature:62)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Search repo that doesnt exist&quot;, &quot;Optional[Search]&quot;](12)" classname="runner.TestRunner" time="0.314">
+    <failure message="expected [200] but found [403]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [403]
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user searches for Github repository with keyword &amp#27;[0m&amp#27;[32m&amp#27;[1m"sedrfgypoiu"&amp#27;[0m &amp#27;[90m# steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mThe Search Repository API returns response with empty search item&amp#27;[0m  &amp#27;[90m# steps.searchSteps.verify_empty_list_for_nonexistent_repo()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [200] but found [403]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at steps.searchSteps.verify_empty_list_for_nonexistent_repo(searchSteps.java:71)
+	at âœ½.The Search Repository API returns response with empty search item(file:///C:/Users/Shalini/IdeaProjects/SearchRepo/src/test/resources/features/search.feature:62)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Search Repository API validation error&quot;, &quot;Optional[Search]&quot;](13)" classname="runner.TestRunner" time="0.748">
+    <failure message="java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8080" type="com.github.tomakehurst.wiremock.common.FatalStartupException"><![CDATA[com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8080
+Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8080
+Caused by: java.io.IOException: Failed to bind to /0.0.0.0:8080
+Caused by: java.net.BindException: Address already in use: bind
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mthe mock server is set up to return validation error for an invalid query&amp#27;[0m        &amp#27;[90m# steps.searchSteps.the_mock_server_is_set_up_to_return_validation_error_for_an_invalid_query()&amp#27;[0m
+      &amp#27;[31mcom.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8080
+	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:149)
+	at steps.searchSteps.the_mock_server_is_set_up_to_return_validation_error_for_an_invalid_query(searchSteps.java:33)
+	at âœ½.the mock server is set up to return validation error for an invalid query(file:///C:/Users/Shalini/IdeaProjects/SearchRepo/src/test/resources/features/search.feature:69)
+Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8080
+	at com.github.tomakehurst.wiremock.jetty9.JettyHttpServer.start(JettyHttpServer.java:192)
+	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:147)
+	at steps.searchSteps.the_mock_server_is_set_up_to_return_validation_error_for_an_invalid_query(searchSteps.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to bind to /0.0.0.0:8080
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:386)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at com.github.tomakehurst.wiremock.jetty9.JettyHttpServer.start(JettyHttpServer.java:190)
+	... 37 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:345)
+	... 44 more
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mThe user searches for Github repository with invalid keyword&amp#27;[0m                      &amp#27;[90m# steps.searchSteps.searchRepoWithInvalidQuery()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe Search Repository API returns validation failed error message with status &amp#27;[0m&amp#27;[36m&amp#27;[1m422&amp#27;[0m &amp#27;[90m# steps.searchSteps.the_search_repository_api_returns_validation_failed_error_message_with_status(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

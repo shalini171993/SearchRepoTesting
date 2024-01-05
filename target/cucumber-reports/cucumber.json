@@ -1,0 +1,1051 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-01-05T11:38:00.564Z",
+        "line": 11,
+        "name": "Search repo with different query parameters",
+        "description": "",
+        "id": "search;search-repo-with-different-query-parameters;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 397000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user sets the baseURL for the Search API",
+            "match": {
+              "location": "steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3154000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user searches for Github repository with keyword \"Java\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Java\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 873000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The Search Repository API returns successful response with status code 200 with expected \"Java\" in the \"items[0].language\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 71
+                },
+                {
+                  "val": "\"Java\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"items[0].language\"",
+                  "offset": 103
+                }
+              ],
+              "location": "steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_code(java.lang.Integer,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-05T11:38:00.564Z",
+        "line": 12,
+        "name": "Search repo with different query parameters",
+        "description": "",
+        "id": "search;search-repo-with-different-query-parameters;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 397000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user sets the baseURL for the Search API",
+            "match": {
+              "location": "steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3091000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user searches for Github repository with keyword \"PyTHOn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PyTHOn\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 935000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The Search Repository API returns successful response with status code 200 with expected \"Python\" in the \"items[0].language\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 71
+                },
+                {
+                  "val": "\"Python\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"items[0].language\"",
+                  "offset": 105
+                }
+              ],
+              "location": "steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_code(java.lang.Integer,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-05T11:38:00.548Z",
+        "line": 13,
+        "name": "Search repo with different query parameters",
+        "description": "",
+        "id": "search;search-repo-with-different-query-parameters;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 397000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user sets the baseURL for the Search API",
+            "match": {
+              "location": "steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2500000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user searches for Github repository with keyword \"user:shalini171993\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user:shalini171993\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1527000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The Search Repository API returns successful response with status code 200 with expected \"11\" in the \"total_count\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 71
+                },
+                {
+                  "val": "\"11\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"total_count\"",
+                  "offset": 101
+                }
+              ],
+              "location": "steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_code(java.lang.Integer,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-05T11:38:00.564Z",
+        "line": 14,
+        "name": "Search repo with different query parameters",
+        "description": "",
+        "id": "search;search-repo-with-different-query-parameters;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 397000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user sets the baseURL for the Search API",
+            "match": {
+              "location": "steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2891000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user searches for Github repository with keyword \"size:1024\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"size:1024\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1136000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The Search Repository API returns successful response with status code 200 with expected \"1024\" in the \"items[0].size\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 71
+                },
+                {
+                  "val": "\"1024\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"items[0].size\"",
+                  "offset": 103
+                }
+              ],
+              "location": "steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_code(java.lang.Integer,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-05T11:38:00.564Z",
+        "line": 24,
+        "name": "Search repo with repository size query parameters and validating the entire list",
+        "description": "",
+        "id": "search;search-repo-with-repository-size-query-parameters-and-validating-the-entire-list;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 397000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user sets the baseURL for the Search API",
+            "match": {
+              "location": "steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2891000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The user searches for Github repository with keyword \"size:100000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"size:100000\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1136000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The Search Repository API returns successful response with status code 200 matching the repo size",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 71
+                }
+              ],
+              "location": "steps.searchSteps.verify_repo_with_size(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-05T11:38:00.564Z",
+        "line": 34,
+        "name": "Search repo with multiple query parameters",
+        "description": "",
+        "id": "search;search-repo-with-multiple-query-parameters;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 397000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The user sets the baseURL for the Search API",
+            "match": {
+              "location": "steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2500000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The user searches for Github repository with keyword \"language:assembly stars:\u003e10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"language:assembly stars:\u003e10000\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1527000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "The Search Repository API returns successful response with status code 200 matching the \"Assembly\" and \"10000\" count",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 71
+                },
+                {
+                  "val": "\"Assembly\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"10000\"",
+                  "offset": 103
+                }
+              ],
+              "location": "steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_code_matching_the_criteria(int,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-05T11:38:00.564Z",
+        "line": 45,
+        "name": "Search repo with query parameters having repository language,starred count and timestamps",
+        "description": "",
+        "id": "search;search-repo-with-query-parameters-having-repository-language-starred-count-and-timestamps;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 397000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "The user sets the baseURL for the Search API",
+            "match": {
+              "location": "steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2540000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The user searches for Github repository with keyword \"language:assembly stars:1..5 created:\u003e2024-01-01 pushed:\u003e2024-01-01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"language:assembly stars:1..5 created:\u003e2024-01-01 pushed:\u003e2024-01-01\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1487000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "The Search Repository API returns successful response with status code 200 matching the \"Assembly\" and \"1,5\" count",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 71
+                },
+                {
+                  "val": "\"Assembly\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"1,5\"",
+                  "offset": 103
+                }
+              ],
+              "location": "steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_code_matching_the_criteria(int,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "The Search Repository displays the filtered results with \"2024-01-01\" and \"2024-01-01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2024-01-01\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"2024-01-01\"",
+                  "offset": 74
+                }
+              ],
+              "location": "steps.searchSteps.the_search_repository_displays_the_filtered_results_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-05T11:38:00.564Z",
+        "line": 54,
+        "name": "Search with queries and sort",
+        "description": "",
+        "id": "search;search-with-queries-and-sort;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 397000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "The user sets the baseURL for the Search API",
+            "match": {
+              "location": "steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2500000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "The user searches for \"user:shalini171993\" with sort key \"stars\" in the order \"asc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user:shalini171993\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"stars\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"asc\"",
+                  "offset": 78
+                }
+              ],
+              "location": "steps.searchSteps.the_user_searches_for_with_sort_key_in_the_order(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1655000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "The Search Repository API returns successful response with status 200 and displays results in the given \"asc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 66
+                },
+                {
+                  "val": "\"asc\"",
+                  "offset": 104
+                }
+              ],
+              "location": "steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_and_displays_results_in_the_given_order(int,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-05T11:38:00.564Z",
+        "line": 55,
+        "name": "Search with queries and sort",
+        "description": "",
+        "id": "search;search-with-queries-and-sort;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 397000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "The user sets the baseURL for the Search API",
+            "match": {
+              "location": "steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2540000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "The user searches for \"user:shalini171993\" with sort key \"stars\" in the order \"desc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user:shalini171993\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"stars\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"desc\"",
+                  "offset": 78
+                }
+              ],
+              "location": "steps.searchSteps.the_user_searches_for_with_sort_key_in_the_order(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1617000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "The Search Repository API returns successful response with status 200 and displays results in the given \"desc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 66
+                },
+                {
+                  "val": "\"desc\"",
+                  "offset": 104
+                }
+              ],
+              "location": "steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_and_displays_results_in_the_given_order(int,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-05T11:38:00.564Z",
+        "line": 56,
+        "name": "Search with queries and sort",
+        "description": "",
+        "id": "search;search-with-queries-and-sort;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 397000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "The user sets the baseURL for the Search API",
+            "match": {
+              "location": "steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2498000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "The user searches for \"user:shalini171993\" with sort key \"stars\" in the order \"null\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user:shalini171993\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"stars\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 78
+                }
+              ],
+              "location": "steps.searchSteps.the_user_searches_for_with_sort_key_in_the_order(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1655000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "The Search Repository API returns successful response with status 200 and displays results in the given \"null\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 66
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 104
+                }
+              ],
+              "location": "steps.searchSteps.the_search_repository_api_returns_successful_response_with_status_and_displays_results_in_the_given_order(int,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-05T11:38:05.024Z",
+        "line": 66,
+        "name": "Search Repository API with pagination parameters",
+        "description": "",
+        "id": "search;search-repository-api-with-pagination-parameters;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "The user sets the baseURL for the Search API",
+            "match": {
+              "location": "steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 264000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "The user searches for a repository with keyword \"forks:\u003e100\" with page number 1 and page size 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"forks:\u003e100\"",
+                  "offset": 48
+                },
+                {
+                  "val": "1",
+                  "offset": 78
+                },
+                {
+                  "val": "5",
+                  "offset": 94
+                }
+              ],
+              "location": "steps.searchSteps.the_user_searches_for_a_repository_with_keyword_forks_with_page_number_and_page_size(java.lang.String,int,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [200] but found [403]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:907)\r\n\tat org.testng.Assert.assertEquals(Assert.java:917)\r\n\tat steps.searchSteps.the_search_repository_api_returns_a_list_of_repository_within_the_page_limit(searchSteps.java:89)\r\n\tat ✽.The Search Repository API returns a list of repository within 5 with status 200(file:///C:/Users/Shalini/IdeaProjects/SearchRepo/src/test/resources/features/search.feature:62)\r\n",
+              "status": "failed"
+            },
+            "line": 62,
+            "name": "The Search Repository API returns a list of repository within 5 with status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 62
+                },
+                {
+                  "val": "200",
+                  "offset": 76
+                }
+              ],
+              "location": "steps.searchSteps.the_search_repository_api_returns_a_list_of_repository_within_the_page_limit(int,int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-05T11:38:05.024Z",
+        "line": 75,
+        "name": "Validate if the response body size is within certain limits",
+        "description": "",
+        "id": "search;validate-if-the-response-body-size-is-within-certain-limits;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "The user sets the baseURL for the Search API",
+            "match": {
+              "location": "steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 233000000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "The user searches for Github repository with keyword \"user:shalini171993\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user:shalini171993\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "The user validates if the response body size is within the acceptable limit 100000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100000",
+                  "offset": 76
+                }
+              ],
+              "location": "steps.searchSteps.the_user_validates_if_the_response_body_size_is_within_the_acceptable_limit(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-05T11:38:05.055Z",
+        "line": 84,
+        "name": "Search repo that don\u0027t exist",
+        "description": "",
+        "id": "search;search-repo-that-don-t-exist;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "The user sets the baseURL for the Search API",
+            "match": {
+              "location": "steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 259000000,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "The user searches for Github repository with keyword \"sedrfgypoiu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sedrfgypoiu\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [200] but found [403]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:907)\r\n\tat org.testng.Assert.assertEquals(Assert.java:917)\r\n\tat steps.searchSteps.verify_empty_list_for_nonexistent_repo(searchSteps.java:103)\r\n\tat ✽.The Search Repository API returns response with empty search item(file:///C:/Users/Shalini/IdeaProjects/SearchRepo/src/test/resources/features/search.feature:81)\r\n",
+              "status": "failed"
+            },
+            "line": 81,
+            "name": "The Search Repository API returns response with empty search item",
+            "match": {
+              "location": "steps.searchSteps.verify_empty_list_for_nonexistent_repo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-05T11:38:05.079Z",
+        "line": 85,
+        "name": "Search repo that don\u0027t exist",
+        "description": "",
+        "id": "search;search-repo-that-don-t-exist;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "The user sets the baseURL for the Search API",
+            "match": {
+              "location": "steps.searchSteps.the_user_sets_the_base_url_for_the_search_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 235000000,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "The user searches for Github repository with keyword \"!@#$%^\u0026*()\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"!@#$%^\u0026*()\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.searchSteps.the_user_searches_for_github_repository_with_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [200] but found [403]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:907)\r\n\tat org.testng.Assert.assertEquals(Assert.java:917)\r\n\tat steps.searchSteps.verify_empty_list_for_nonexistent_repo(searchSteps.java:103)\r\n\tat ✽.The Search Repository API returns response with empty search item(file:///C:/Users/Shalini/IdeaProjects/SearchRepo/src/test/resources/features/search.feature:81)\r\n",
+              "status": "failed"
+            },
+            "line": 81,
+            "name": "The Search Repository API returns response with empty search item",
+            "match": {
+              "location": "steps.searchSteps.verify_empty_list_for_nonexistent_repo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-05T11:38:05.055Z",
+        "line": 87,
+        "name": "Search Repository with invalid query and verify the validation error",
+        "description": "",
+        "id": "search;search-repository-with-invalid-query-and-verify-the-validation-error",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8080\r\n\tat com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:149)\r\n\tat steps.searchSteps.the_mock_server_is_set_up_to_return_validation_error_for_an_invalid_query(searchSteps.java:31)\r\n\tat ✽.the mock server is set up to return validation error for an invalid query(file:///C:/Users/Shalini/IdeaProjects/SearchRepo/src/test/resources/features/search.feature:88)\r\nCaused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8080\r\n\tat com.github.tomakehurst.wiremock.jetty9.JettyHttpServer.start(JettyHttpServer.java:192)\r\n\tat com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:147)\r\n\tat steps.searchSteps.the_mock_server_is_set_up_to_return_validation_error_for_an_invalid_query(searchSteps.java:31)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\r\n\tat io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)\r\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)\r\n\tat io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)\r\n\tat io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)\r\n\tat org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: java.io.IOException: Failed to bind to /0.0.0.0:8080\r\n\tat org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)\r\n\tat org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310)\r\n\tat org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)\r\n\tat org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234)\r\n\tat org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)\r\n\tat org.eclipse.jetty.server.Server.doStart(Server.java:386)\r\n\tat org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)\r\n\tat com.github.tomakehurst.wiremock.jetty9.JettyHttpServer.start(JettyHttpServer.java:190)\r\n\t... 37 more\r\nCaused by: java.net.BindException: Address already in use: bind\r\n\tat sun.nio.ch.Net.bind0(Native Method)\r\n\tat sun.nio.ch.Net.bind(Net.java:444)\r\n\tat sun.nio.ch.Net.bind(Net.java:436)\r\n\tat sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)\r\n\tat sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)\r\n\tat org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:345)\r\n\t... 44 more\r\n",
+              "duration": 640000000,
+              "status": "failed"
+            },
+            "line": 88,
+            "name": "the mock server is set up to return validation error for an invalid query",
+            "match": {
+              "location": "steps.searchSteps.the_mock_server_is_set_up_to_return_validation_error_for_an_invalid_query()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 89,
+            "name": "The user searches for Github repository with invalid keyword",
+            "match": {
+              "location": "steps.searchSteps.searchRepoWithInvalidQuery()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "The Search Repository API returns validation failed error message with status 422",
+            "match": {
+              "arguments": [
+                {
+                  "val": "422",
+                  "offset": 78
+                }
+              ],
+              "location": "steps.searchSteps.the_search_repository_api_returns_validation_failed_error_message_with_status(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-05T11:38:05.039Z",
+        "line": 93,
+        "name": "Search Repository API exceeded the ratelimit",
+        "description": "",
+        "id": "search;search-repository-api-exceeded-the-ratelimit",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1421000000,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "The mock server is setup to set the rate limit value as 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 56
+                }
+              ],
+              "location": "steps.searchSteps.the_mock_server_is_setup_to_set_the_rate_limit_value_as(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41000000,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "The user hits the Search Repository API with exceeded rate limit value",
+            "match": {
+              "location": "steps.searchSteps.the_user_hits_the_search_repository_api_with_exceeded_rate_limit_value()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "The Search Repository API returns status code 429",
+            "match": {
+              "arguments": [
+                {
+                  "val": "429",
+                  "offset": 46
+                }
+              ],
+              "location": "steps.searchSteps.the_search_repository_api_returns_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search",
+    "description": "",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/search.feature",
+    "tags": []
+  }
+]

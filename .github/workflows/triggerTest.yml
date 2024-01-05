@@ -1,0 +1,29 @@
+name : Trigger Test
+
+on:
+  push:
+    braches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name : Setup JDK 8
+        uses: actions/setup-java@v2
+        with:
+          java-version: '8'
+          distribution: 'adopt'
+      - name: cache maven packages
+        uses: actions/cache@v2
+        with:
+          path: ~/.m2
+          key: ${{runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+          restore-keys: {{runner.os}}-m2
+      - name: Build
+        run: mvn -B package --file pom.xml
+
+      - name: Run tests
+        run: mvn test

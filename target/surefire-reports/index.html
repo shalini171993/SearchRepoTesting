@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SearchRepositoryAPITestSuite">
+              <span class="suite-name border-failed">SearchRepositoryAPITestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SearchRepositoryAPITestSuite">
+                    <span>C:\Users\Shalini\IdeaProjects\SearchRepo\src\test\resources\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SearchRepositoryAPITestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SearchRepositoryAPITestSuite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SearchRepositoryAPITestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SearchRepositoryAPITestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SearchRepositoryAPITestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SearchRepositoryAPITestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 3 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SearchRepositoryAPITestSuite" class="hide-methods failed suite-SearchRepositoryAPITestSuite"> (hide)</a> <!-- hide-methods failed suite-SearchRepositoryAPITestSuite -->
+                      <a href="#" panel-name="suite-SearchRepositoryAPITestSuite" class="show-methods failed suite-SearchRepositoryAPITestSuite"> (show)</a> <!-- show-methods failed suite-SearchRepositoryAPITestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-SearchRepositoryAPITestSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SearchRepositoryAPITestSuite" title="runner.TestRunner" hash-for-method="runScenario(&quot;Search repo that doesnt exist&quot;, &quot;Optional[Search]&quot;)">runScenario("Search repo that doesnt exist", "Optional[Search]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SearchRepositoryAPITestSuite" title="runner.TestRunner" hash-for-method="runScenario(&quot;Search Repository API validation error&quot;, &quot;Optional[Search]&quot;)">runScenario("Search Repository API validation error", "Optional[Search]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SearchRepositoryAPITestSuite" title="runner.TestRunner" hash-for-method="runScenario(&quot;Search repo that doesnt exist&quot;, &quot;Optional[Search]&quot;)">runScenario("Search repo that doesnt exist", "Optional[Search]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SearchRepositoryAPITestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SearchRepositoryAPITestSuite" class="hide-methods passed suite-SearchRepositoryAPITestSuite"> (hide)</a> <!-- hide-methods passed suite-SearchRepositoryAPITestSuite -->
+                      <a href="#" panel-name="suite-SearchRepositoryAPITestSuite" class="show-methods passed suite-SearchRepositoryAPITestSuite"> (show)</a> <!-- show-methods passed suite-SearchRepositoryAPITestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-SearchRepositoryAPITestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SearchRepositoryAPITestSuite" title="runner.TestRunner" hash-for-method="runScenario(&quot;Search with queries and sort&quot;, &quot;Optional[Search]&quot;)">runScenario("Search with queries and sort", "Optional[Search]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SearchRepositoryAPITestSuite" title="runner.TestRunner" hash-for-method="runScenario(&quot;Search with queries and sort&quot;, &quot;Optional[Search]&quot;)">runScenario("Search with queries and sort", "Optional[Search]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SearchRepositoryAPITestSuite" title="runner.TestRunner" hash-for-method="runScenario(&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;)">runScenario("Search repo with different query parameters", "Optional[Search]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SearchRepositoryAPITestSuite" title="runner.TestRunner" hash-for-method="runScenario(&quot;Search with queries and sort&quot;, &quot;Optional[Search]&quot;)">runScenario("Search with queries and sort", "Optional[Search]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SearchRepositoryAPITestSuite" title="runner.TestRunner" hash-for-method="runScenario(&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;)">runScenario("Search repo with different query parameters", "Optional[Search]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SearchRepositoryAPITestSuite" title="runner.TestRunner" hash-for-method="runScenario(&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;)">runScenario("Search repo with different query parameters", "Optional[Search]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SearchRepositoryAPITestSuite" title="runner.TestRunner" hash-for-method="runScenario(&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;)">runScenario("Search repo with different query parameters", "Optional[Search]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SearchRepositoryAPITestSuite" title="runner.TestRunner" hash-for-method="runScenario(&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;)">runScenario("Search repo with different query parameters", "Optional[Search]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SearchRepositoryAPITestSuite" title="runner.TestRunner" hash-for-method="runScenario(&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;)">runScenario("Search repo with different query parameters", "Optional[Search]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SearchRepositoryAPITestSuite" title="runner.TestRunner" hash-for-method="runScenario(&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;)">runScenario("Search repo with different query parameters", "Optional[Search]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SearchRepositoryAPITestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SearchRepositoryAPITestSuite" class="panel SearchRepositoryAPITestSuite">
+          <div class="suite-SearchRepositoryAPITestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search repo that doesnt exist&quot;, &quot;Optional[Search]&quot;)">
+                  </a> <!-- runScenario("Search repo that doesnt exist", "Optional[Search]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search repo that doesnt exist", "Optional[Search]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [403]
+	at steps.searchSteps.verify_empty_list_for_nonexistent_repo(searchSteps.java:71)
+	at ✽.The Search Repository API returns response with empty search item(file:///C:/Users/Shalini/IdeaProjects/SearchRepo/src/test/resources/features/search.feature:62)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search Repository API validation error&quot;, &quot;Optional[Search]&quot;)">
+                  </a> <!-- runScenario("Search Repository API validation error", "Optional[Search]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search Repository API validation error", "Optional[Search]")</span>
+                  <div class="stack-trace">com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8080
+	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:149)
+	at steps.searchSteps.the_mock_server_is_set_up_to_return_validation_error_for_an_invalid_query(searchSteps.java:33)
+	at ✽.the mock server is set up to return validation error for an invalid query(file:///C:/Users/Shalini/IdeaProjects/SearchRepo/src/test/resources/features/search.feature:69)
+Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8080
+	at com.github.tomakehurst.wiremock.jetty9.JettyHttpServer.start(JettyHttpServer.java:192)
+	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:147)
+	at steps.searchSteps.the_mock_server_is_set_up_to_return_validation_error_for_an_invalid_query(searchSteps.java:33)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to bind to /0.0.0.0:8080
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:386)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at com.github.tomakehurst.wiremock.jetty9.JettyHttpServer.start(JettyHttpServer.java:190)
+	... 37 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:345)
+	... 44 more
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search repo that doesnt exist&quot;, &quot;Optional[Search]&quot;)">
+                  </a> <!-- runScenario("Search repo that doesnt exist", "Optional[Search]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search repo that doesnt exist", "Optional[Search]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [403]
+	at steps.searchSteps.verify_empty_list_for_nonexistent_repo(searchSteps.java:71)
+	at ✽.The Search Repository API returns response with empty search item(file:///C:/Users/Shalini/IdeaProjects/SearchRepo/src/test/resources/features/search.feature:62)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SearchRepositoryAPITestSuite-class-failed -->
+          <div class="suite-SearchRepositoryAPITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search with queries and sort&quot;, &quot;Optional[Search]&quot;)">
+                  </a> <!-- runScenario("Search with queries and sort", "Optional[Search]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search with queries and sort", "Optional[Search]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search with queries and sort&quot;, &quot;Optional[Search]&quot;)">
+                  </a> <!-- runScenario("Search with queries and sort", "Optional[Search]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search with queries and sort", "Optional[Search]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;)">
+                  </a> <!-- runScenario("Search repo with different query parameters", "Optional[Search]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search repo with different query parameters", "Optional[Search]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search with queries and sort&quot;, &quot;Optional[Search]&quot;)">
+                  </a> <!-- runScenario("Search with queries and sort", "Optional[Search]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search with queries and sort", "Optional[Search]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;)">
+                  </a> <!-- runScenario("Search repo with different query parameters", "Optional[Search]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search repo with different query parameters", "Optional[Search]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;)">
+                  </a> <!-- runScenario("Search repo with different query parameters", "Optional[Search]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search repo with different query parameters", "Optional[Search]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;)">
+                  </a> <!-- runScenario("Search repo with different query parameters", "Optional[Search]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search repo with different query parameters", "Optional[Search]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;)">
+                  </a> <!-- runScenario("Search repo with different query parameters", "Optional[Search]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search repo with different query parameters", "Optional[Search]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;)">
+                  </a> <!-- runScenario("Search repo with different query parameters", "Optional[Search]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search repo with different query parameters", "Optional[Search]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search repo with different query parameters&quot;, &quot;Optional[Search]&quot;)">
+                  </a> <!-- runScenario("Search repo with different query parameters", "Optional[Search]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search repo with different query parameters", "Optional[Search]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SearchRepositoryAPITestSuite-class-passed -->
+        </div> <!-- panel SearchRepositoryAPITestSuite -->
+        <div panel-name="test-xml-SearchRepositoryAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Shalini\IdeaProjects\SearchRepo\src\test\resources\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;SearchRepositoryAPITestSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;SearchRepositoryAPITests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SearchRepositoryAPITests --&gt;
+&lt;/suite&gt; &lt;!-- SearchRepositoryAPITestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SearchRepositoryAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SearchRepositoryAPITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SearchRepositoryAPITests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SearchRepositoryAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SearchRepositoryAPITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SearchRepositoryAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SearchRepositoryAPITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SearchRepositoryAPITestSuite');
+function tableData_SearchRepositoryAPITestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'runner.TestRunner')
+data.setCell(0, 3, 3871);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'runner.TestRunner')
+data.setCell(1, 3, 3846);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'runner.TestRunner')
+data.setCell(2, 3, 3829);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'runner.TestRunner')
+data.setCell(3, 3, 3824);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'runner.TestRunner')
+data.setCell(4, 3, 3733);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'runner.TestRunner')
+data.setCell(5, 3, 3733);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'runner.TestRunner')
+data.setCell(6, 3, 3733);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'runner.TestRunner')
+data.setCell(7, 3, 3732);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'runner.TestRunner')
+data.setCell(8, 3, 3730);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'runner.TestRunner')
+data.setCell(9, 3, 3730);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'runner.TestRunner')
+data.setCell(10, 3, 756);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'runner.TestRunner')
+data.setCell(11, 3, 324);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'runner.TestRunner')
+data.setCell(12, 3, 256);
+window.suiteTableData['SearchRepositoryAPITestSuite']= { tableData: data, tableDiv: 'times-div-SearchRepositoryAPITestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <div id="times-div-SearchRepositoryAPITestSuite">
+              </div> <!-- times-div-SearchRepositoryAPITestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SearchRepositoryAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SearchRepositoryAPITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SearchRepositoryAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SearchRepositoryAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Search with queries and sort", "Optional[Search]")</span>
+                <span class="method-start">466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Search with queries and sort", "Optional[Search]")</span>
+                <span class="method-start">466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Search repo with different query parameters", "Optional[Search]")</span>
+                <span class="method-start">466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Search repo with different query parameters", "Optional[Search]")</span>
+                <span class="method-start">466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Search repo with different query parameters", "Optional[Search]")</span>
+                <span class="method-start">466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Search repo with different query parameters", "Optional[Search]")</span>
+                <span class="method-start">466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Search repo with different query parameters", "Optional[Search]")</span>
+                <span class="method-start">466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Search with queries and sort", "Optional[Search]")</span>
+                <span class="method-start">466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Search repo with different query parameters", "Optional[Search]")</span>
+                <span class="method-start">466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Search repo with different query parameters", "Optional[Search]")</span>
+                <span class="method-start">466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Search repo that doesnt exist", "Optional[Search]")</span>
+                <span class="method-start">4202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Search Repository API validation error", "Optional[Search]")</span>
+                <span class="method-start">4203 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Search repo that doesnt exist", "Optional[Search]")</span>
+                <span class="method-start">4203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">4961 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

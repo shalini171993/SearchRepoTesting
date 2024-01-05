@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SearchRepositoryAPITestSuite">
+    <test name="SearchRepositoryAPITests">
+        <classes>
+            <class name = "runner.TestRunner">
+
+            </class>
+        </classes>
+    </test>
+</suite>

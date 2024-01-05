@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 5.855 s <<< FAILURE! - in TestSuite
+runner.TestRunner.runScenario["Search repo that doesnt exist", "Optional[Search]"](11)  Time elapsed: 0.256 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [403]
+
+runner.TestRunner.runScenario["Search repo that doesnt exist", "Optional[Search]"](12)  Time elapsed: 0.314 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [403]
+
+runner.TestRunner.runScenario["Search Repository API validation error", "Optional[Search]"](13)  Time elapsed: 0.748 s  <<< FAILURE!
+com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8080
+Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8080
+Caused by: java.io.IOException: Failed to bind to /0.0.0.0:8080
+Caused by: java.net.BindException: Address already in use: bind
+
