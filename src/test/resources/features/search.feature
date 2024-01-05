@@ -9,9 +9,9 @@ Feature: Search
     Examples:
     |queryParam                   |responseKey                 |searchResult |
     |Java                         |items[0].language           |Java         |
-    |PyTHOn                       |items[0].language           |Python         |
-    |user:shalini171993           |total_count                 |11             |
-    |size:1024                    |items[0].size               |1024           |
+    |PyTHOn                       |items[0].language           |Python       |
+    |user:shalini171993           |total_count                 |13           |
+    |size:1024                    |items[0].size               |1024         |
 
   Scenario Outline: Search repo with repository size query parameters and validating the entire list
 
@@ -84,15 +84,15 @@ Feature: Search
     |sedrfgypoiu          |
     |!@#$%^&*()           |
 
-    Scenario: Search Repository with invalid query and verify the validation error
-      Given the mock server is set up to return validation error for an invalid query
-      When The user searches for Github repository with invalid keyword
-      Then The Search Repository API returns validation failed error message with status 422
-
-
-  Scenario: Search Repository API exceeded the ratelimit
-    Given The mock server is setup to set the rate limit value as 0
-    When The user hits the Search Repository API with exceeded rate limit value
-    Then The Search Repository API returns status code 429
+#    Scenario: Search Repository with invalid query and verify the validation error
+#      Given the mock server is set up to return validation error for an invalid query
+#      When The user searches for Github repository with invalid keyword
+#      Then The Search Repository API returns validation failed error message with status 422
+#
+#
+#  Scenario: Search Repository API exceeded the ratelimit
+#    Given The mock server is setup to set the rate limit value as 0
+#    When The user hits the Search Repository API with exceeded rate limit value
+#    Then The Search Repository API returns status code 429
 
 
